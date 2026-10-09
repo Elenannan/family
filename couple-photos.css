@@ -1,4 +1,5 @@
-/* Only the photo gallery below the existing masthead is styled here. */
+/* Give the gallery more room in both themes without changing the masthead. */
+.site:has(> .couple-album){width:100%;max-width:1600px;padding-inline:clamp(16px,2.5vw,40px)}
 .couple-album .couple-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
 .couple-album .couple-grid-landscape{--photo-ratio:4/3}
 .couple-album .couple-grid-portrait{--photo-ratio:3/4;margin-top:36px}
@@ -12,5 +13,13 @@
 .couple-album .photo-face-back{transform:rotateY(180deg)}
 .couple-album .photo-face img{display:block;width:100%;height:100%;object-fit:contain;image-orientation:from-image;user-select:none}
 @media(max-width:800px){.couple-album .couple-grid{gap:16px}}
-@media(max-width:480px){.couple-album .couple-grid{gap:8px}.couple-album .couple-grid-portrait{margin-top:24px}}
+@media(max-width:640px){.couple-album .couple-grid{gap:8px}.couple-album .couple-grid-portrait{margin-top:24px}}
 @media(prefers-reduced-motion:reduce){.couple-album .photo-flip-inner{transition:none}}
+
+/* Preserve desktop gallery proportions on phones and tablets. */
+@media(max-width:900px){
+ .site:has(> .couple-album){width:94.940711%;padding-inline:0;min-height:0;container-type:inline-size}
+ .couple-album{padding:3.663614cqw 0 5.828476cqw}
+ .couple-album .couple-grid{gap:1.998335cqw}
+ .couple-album .couple-grid-portrait{margin-top:2.997502cqw}
+}

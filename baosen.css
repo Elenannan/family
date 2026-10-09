@@ -243,3 +243,83 @@ button,input,textarea,select{font-family:var(--font)}
  .welcome-invitation{font-size:23px;max-width:16em;margin:0 auto 22px;text-wrap:balance}
  .welcome-details{font-size:20px}
 }
+
+/* Shared greeting position; daytime uses its own traditional inscription. */
+:root:not([data-theme=dark]) .masthead-brand{
+ left:51%;top:min(47%,calc(100% - var(--day-title-size)*8.64 - 24px));bottom:auto;
+ transform:translateX(-50%);
+}
+:root:not([data-theme=dark]) .birthday-columns{
+ display:flex;justify-content:flex-start;gap:8.82px;
+ font:400 var(--day-title-size)/1.25 var(--font);letter-spacing:.08em;
+ text-shadow:0 1px 2px rgba(61,5,11,.8);
+}
+:root:not([data-theme=dark]) .masthead-brand > .birthday-signature{display:flex}
+@media(min-width:641px) and (max-width:900px){
+ :root:not([data-theme=dark]) .birthday-columns{gap:6px}
+}
+@media(max-width:640px){
+ :root:not([data-theme=dark]) .masthead-brand{left:51%;top:min(47%,calc(100% - var(--day-title-size)*8.64 - 1.5cqw));bottom:auto}
+ :root:not([data-theme=dark]) .birthday-columns{gap:.6890625cqw}
+}
+
+/* Feather a warm dark veil behind the daytime greeting and its signature. */
+:root:not([data-theme=dark]) .masthead-brand::before{
+ inset:calc(var(--day-title-size)*-.7) calc(var(--day-title-size)*-1)
+       calc(var(--day-title-size)*-.7) calc(var(--day-title-size)*-2);
+ background:radial-gradient(ellipse closest-side at 50% 52%,rgba(59,8,14,.5) 0%,rgba(59,8,14,.34) 58%,rgba(59,8,14,.1) 78%,transparent 100%);
+ filter:blur(calc(var(--day-title-size)*.25));
+}
+
+/* Six traditional daytime columns; the date starts beside 壽 in its own small column. */
+:root:not([data-theme=dark]) .birthday-columns{display:none}
+:root:not([data-theme=dark]) .masthead-brand > .birthday-signature{
+ left:calc(var(--day-title-size)*-.8);
+ top:calc(var(--day-title-size)*2.25);bottom:auto;
+ width:calc(var(--day-title-size)*.5);gap:calc(var(--day-title-size)*.15);
+}
+:root:not([data-theme=dark]) .masthead-brand > .birthday-signature .signature-writing{
+ width:115%;gap:calc(var(--day-title-size)*.1);
+}
+:root:not([data-theme=dark]) .masthead-brand > .birthday-signature .signature-name-seal{width:100%}
+
+/* Align the night date beside 壽 in 蒞臨壽宴, closer to the greeting. */
+[data-theme=dark] .masthead-brand > .birthday-signature{
+ left:calc(var(--blessing-size)*-1);
+ top:calc(var(--blessing-size)*2.3);
+}
+
+/* Enlarge the complete night inscription and lift it within the artwork. */
+:root[data-theme=dark] .masthead-brand{
+ transform:translate(-50%,-96px) scale(1.25);
+}
+@media(max-width:640px){
+ :root[data-theme=dark] .masthead-brand{transform:translate(-50%,-7.5cqw) scale(1.25)}
+}
+
+/* Scale the approved 1265 × 440 desktop composition to smaller screens. */
+@media(max-width:900px){
+ .art-masthead{height:auto;min-height:0;aspect-ratio:1265/440;container-type:inline-size;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+ .art-masthead .masthead-art{position:absolute;inset:0}
+ :root .art-masthead .masthead-art img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+ :root:not([data-theme=dark]) .art-masthead .masthead-art img.masthead-art-day{height:114%;object-position:50% 80%}
+ :root .art-masthead .masthead-inner{position:absolute;inset:0;width:100%;max-width:none;height:100%;padding:0;margin:0}
+ :root:not([data-theme=dark]) .art-masthead::after{background:linear-gradient(to bottom,transparent 58%,color-mix(in srgb,var(--bg) 25%,transparent) 76%,var(--bg) 100%)}
+ :root[data-theme=dark] .art-masthead::after{background:linear-gradient(to bottom,transparent 48%,rgba(22,51,42,.18) 68%,var(--bg) 100%)}
+ :root:not([data-theme=dark]) .masthead-brand{--day-title-size:2.529644cqw;left:51%;top:11.02972cqw;bottom:auto;margin:0;transform:translateX(-50%)}
+ :root:not([data-theme=dark]) .birthday-day-groups{gap:.697233cqw;letter-spacing:.08em}
+ :root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + .474308cqw);width:1.976285cqw}
+ :root[data-theme=dark] .masthead-brand{--blessing-size:2.138585cqw;left:55.533597%;top:4.423172cqw;bottom:auto;margin:0;transform:translateX(-50%) scale(1.25)}
+ :root[data-theme=dark] .birthday-columns{gap:.790514cqw}
+ :root[data-theme=dark] .birthday-signature{gap:.316206cqw}
+ :root[data-theme=dark] .signature-writing{gap:.237154cqw}
+ :root[data-theme=dark] .birthday-fortune-seal{left:calc(100% + .474308cqw);width:2.134387cqw}
+}
+
+/* Give the daytime inscription more breathing room on phones only. */
+@media(max-width:640px){
+ :root:not([data-theme=dark]) .masthead-brand{
+  transform:translateX(-50%) scale(.9);
+  transform-origin:center top;
+ }
+}
