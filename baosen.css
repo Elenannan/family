@@ -291,10 +291,10 @@ button,input,textarea,select{font-family:var(--font)}
 
 /* Enlarge the complete night inscription and lift it within the artwork. */
 :root[data-theme=dark] .masthead-brand{
- transform:translate(-50%,-96px) scale(1.25);
+ transform:translate(-50%,-96px) scale(.9375);
 }
 @media(max-width:640px){
- :root[data-theme=dark] .masthead-brand{transform:translate(-50%,-7.5cqw) scale(1.25)}
+ :root[data-theme=dark] .masthead-brand{transform:translate(-50%,-7.5cqw) scale(.9375)}
 }
 
 /* Scale the approved 1265 × 440 desktop composition to smaller screens. */
@@ -309,7 +309,7 @@ button,input,textarea,select{font-family:var(--font)}
  :root:not([data-theme=dark]) .masthead-brand{--day-title-size:2.529644cqw;left:51%;top:11.02972cqw;bottom:auto;margin:0;transform:translateX(-50%)}
  :root:not([data-theme=dark]) .birthday-day-groups{gap:.697233cqw;letter-spacing:.08em}
  :root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + .474308cqw);width:1.976285cqw}
- :root[data-theme=dark] .masthead-brand{--blessing-size:2.138585cqw;left:55.533597%;top:4.423172cqw;bottom:auto;margin:0;transform:translateX(-50%) scale(1.25)}
+ :root[data-theme=dark] .masthead-brand{--blessing-size:2.138585cqw;left:55.533597%;top:4.423172cqw;bottom:auto;margin:0;transform:translateX(-50%) scale(.9375)}
  :root[data-theme=dark] .birthday-columns{gap:.790514cqw}
  :root[data-theme=dark] .birthday-signature{gap:.316206cqw}
  :root[data-theme=dark] .signature-writing{gap:.237154cqw}
