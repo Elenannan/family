@@ -335,3 +335,10 @@ button,input,textarea,select{font-family:var(--font)}
 @media(max-width:640px){
  :root:not([data-theme=dark]) .masthead-brand{transform:translate(-50%,4.426877cqw) scale(.72)}
 }
+
+/* Center the complete night inscription vertically within the artwork. */
+:root[data-theme=dark] .masthead-brand{
+ top:50%;bottom:auto;
+ transform:translate(-50%,-50%) scale(.9375);
+ transform-origin:center center;
+}
