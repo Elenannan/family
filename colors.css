@@ -1,0 +1,128 @@
+/* 全站配色控制台：所有页面共用此文件。
+   修改后保存并刷新本地页面即可；不会自动发布到正式网站。
+   1. 常用主色在最上方；var(...) 表示跟随对应颜色。
+   2. 日间、夜间可以分别调整；卡片的夜间特例在最后。
+   3. 换整套配色时，依次检查正文、背景、链接及标签文字的可读性。
+*/
+
+/* 一、三种主色 */
+:root {
+  --brand-navy: #181B39; /* 日间文字、夜间背景 */
+  --brand-mist: #C6D4EE; /* 雾蓝色卡片 */
+  --brand-cream: #FCE6B7; /* 奶油色标签和高亮 */
+  --favicon-bg: var(--brand-navy); /* 浏览器标签页 Q 图标背景 */
+  --favicon-ink: #FFF9E6; /* Q 图标文字 */
+}
+
+/* 二、日间模式 */
+:root {
+  color-scheme: light;
+  --bg: #EBF4FF; /* 页面背景 */
+  --paper: #fff; /* 小卡片、输入框背景 */
+  --ink: var(--brand-navy); /* 正文 */
+  --navy: var(--brand-navy); /* 标题 */
+  --muted: #364875; /* 次要文字 */
+  --blue: #364875; /* 链接和小标题 */
+  --accent: #FFF; /* 强调色 */
+  --mist: var(--brand-mist); /* 卡片、悬停背景 */
+  --line: #d6deec; /* 边框和分隔线 */
+  --cream: var(--brand-cream); /* 标签、按钮与高亮 */
+  --cream-soft: var(--brand-navy); /* Currently 区块背景 */
+  --cream-ink: #43302E; /* 浅黄色标签上的文字 */
+  --code: #f1f4fa; /* 代码区域背景 */
+  --mark: #50688c; /* 姓名句点、链接下划线 */
+  --heading-highlight: var(--cream); /* About 标题下的高亮 */
+}
+
+/* 三、夜间模式 */
+:root[data-theme=dark] {
+  color-scheme: dark;
+  --bg: var(--brand-navy); /* 页面背景 */
+  --paper: #212356; /* 小卡片、输入框背景 */
+  --ink: #f1f3fa; /* 正文 */
+  --navy: #fff; /* 标题 */
+  --muted: #c1c6de; /* 次要文字 */
+  --blue: var(--brand-mist); /* 链接和小标题 */
+  --accent: var(--brand-mist); /* 强调色 */
+  --mist: #2b335e; /* 卡片、悬停背景 */
+  --line: #465076; /* 边框和分隔线 */
+  --cream: var(--brand-cream); /* 标签、按钮与高亮 */
+  --cream-soft: #FBE29D; /* Currently 区块背景 */
+  --cream-ink: #43302E; /* 浅黄色标签上的文字 */
+  --code: #212356; /* 代码区域背景 */
+  --mark: var(--brand-mist); /* 姓名句点、链接下划线 */
+  --heading-highlight: #65768a; /* About 标题下的高亮 */
+}
+
+/* 四、夜间的个人信息卡片：保留浅色背景及深色文字 */
+:root[data-theme=dark] .identity {
+  --mist: var(--brand-mist);
+  --navy: var(--brand-navy);
+  --ink: var(--brand-navy);
+  --muted: #354362;
+  --blue: #364875;
+  --paper: #ffffff;
+  --line: #8da7cd;
+  --mark: #50688c;
+  --cream: var(--brand-cream);
+  --cream-ink: #69592e;
+}
+
+/* 五、Education 学历信息框与课程小标识（独立于顶部导航） */
+:root {
+  --degree-background: var(--brand-navy); /* 学历信息框背景 */
+  --degree-text: #ffffff; /* 学历名称、学校与日期 */
+  --note-badge-background: var(--brand-mist); /* 课程小标识背景 */
+  --note-badge-text: var(--brand-navy); /* 课程小标识文字 */
+}
+
+/* 六、仅夜间：学历框与 Experience 时间标签；日间保持原样 */
+:root[data-theme=dark] {
+  --degree-background: var(--brand-mist);
+  --note-badge-background: #EBF4FF;
+  --degree-text: var(--brand-navy);
+}
+:root[data-theme=dark] .work-group .record-side {
+  --mist: var(--brand-mist); /* 时间标签浅蓝背景 */
+  --blue: var(--brand-navy); /* 时间标签深蓝文字 */
+}
+
+/* Baosen Sheng：日间朱红色；夜间保留 qimin-website 原配色。 */
+:root:not([data-theme=dark]) {
+  --bg:#991f29; --paper:#8b1c25; --ink:#fff0d5; --navy:#f7d883;
+  --muted:#efd8b6; --blue:#f7d883; --accent:#efc96a; --mist:#ab3035;
+  --line:#c67462; --cream:#f1d080; --cream-ink:#64151d; --cream-soft:#ab3035;
+  --code:#821b23; --mark:#f1d080; --heading-highlight:#743021;
+  --favicon-bg:#991f29; --favicon-ink:#f7d883;
+  --degree-background:#ab3035; --degree-text:#fff0d5;
+  --note-badge-background:#ab3035; --note-badge-text:#fff0d5;
+}
+
+/* 夜间松绿配色：参考用户提供的中国传统绿色卡；日间变量保持原样。 */
+:root[data-theme=dark] {
+  --bg:#16332A; /* 苍绿 */
+  --paper:#1F3E33; /* 黛绿 */
+  --ink:#E3EDE0;
+  --navy:#CDE7D0; /* 缥色 */
+  --muted:#A1D8B1; /* 淡绿 */
+  --blue:#88CBA0; /* 水绿 */
+  --accent:#87BFC1; /* 天青 */
+  --mist:#2B4D3E; /* 苔绿 */
+  --line:#4E7E6E; /* 螺青 */
+  --cream:#CDE7D0;
+  --cream-soft:#1F3E33;
+  --cream-ink:#16332A;
+  --code:#1F3E33;
+  --mark:#88CBA0;
+  --heading-highlight:#365B4C; /* 墨绿 */
+  --favicon-bg:#16332A;
+  --favicon-ink:#CDE7D0;
+  --degree-background:#2B4D3E;
+  --degree-text:#E3EDE0;
+  --note-badge-background:#365B4C;
+  --note-badge-text:#E3EDE0;
+}
+:root[data-theme=dark] .work-group .record-side {
+  --mist:#2B4D3E;
+  --blue:#CDE7D0;
+}

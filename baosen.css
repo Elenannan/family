@@ -1,0 +1,177 @@
+/* Preserve the yijia homepage layout and palette. */
+.skills-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.skills-grid>div{min-width:0}
+.contact-links>span{font-size:14px;color:var(--muted)}
+.site-label,.theme-option,nav a,.footer-tools button,footer{font-size:14px}
+.record-side{font-size:14px}.record{min-width:0}.record>div{min-width:0}.record p{overflow-wrap:anywhere}
+.honor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.honor-card{position:relative;padding:30px 26px 24px;border:1px solid var(--line);border-radius:12px;background:color-mix(in srgb,var(--paper) 40%,transparent);min-width:0}
+.slot-number{font:14px/1.5 var(--font-label);letter-spacing:.1em;color:var(--muted)}
+.honor-card h2{font-size:21px;margin:25px 0 10px}.honor-card p{margin-bottom:8px;overflow-wrap:anywhere}.honor-meta{color:var(--muted);font-size:14px}
+.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 24px}.photo-entry{margin:0;min-width:0}.photo-slot{position:relative;aspect-ratio:1;border:1px dashed var(--line);border-radius:12px;background:color-mix(in srgb,var(--paper) 45%,transparent);display:grid;place-items:center;color:var(--muted);font-size:14px;overflow:hidden}.photo-slot .slot-number{position:absolute;left:16px;top:14px}.photo-slot img{width:100%;height:100%;object-fit:cover}.photo-entry h2{font-size:18px;margin:13px 0 4px;overflow-wrap:anywhere}.photo-entry p{font-size:14px;color:var(--muted);margin:0;overflow-wrap:anywhere}
+@media(max-width:900px) and (min-width:641px){.skills-grid{gap:16px}}
+@media(max-width:700px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}}
+@media(max-width:640px){.skills-grid{grid-template-columns:1fr;gap:24px}.honor-grid{grid-template-columns:1fr}.wordmark{font-size:27px}.theme-option{padding:6px 8px}.theme-option svg{display:none}.profile-initial{font-size:40px}.honor-card{padding:24px}.site-label{display:none}}
+@media(max-width:380px){header{gap:8px;flex-wrap:wrap}.wordmark{font-size:25px}.theme-option{font-size:14px;padding:5px}.photo-grid{grid-template-columns:1fr}.profile-initial{width:56px;height:56px;font-size:34px}.contact-links{gap:13px}nav a{font-size:14px}}
+@media(min-width:641px){}
+
+/* Embedded clerical-script face for offline text and future edits. */
+@font-face{font-family:"Baosen Lishu";src:url("assets/libian-sc.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+:root{--font:"Baosen Lishu","Libian SC","Libian TC","LiSu",serif;--font-display:var(--font);--font-label:var(--font)}
+body{font-size:18px;line-height:1.9}
+button,input,textarea,select{font-family:var(--font)}
+.site-label,.theme-option,nav a,.footer-tools button,footer,.record-side,.slot-number,.honor-meta,.photo-slot,.photo-entry p,.editor-panel p,.editor-actions button,.editor-status{font-size:16px}
+.home-content h2{font-size:23px}.home-content h3{font-size:20px}.language-list li{font-size:18px}
+.wordmark{display:block;width:144px;flex-shrink:0;line-height:1;color:var(--navy)}
+.name-mark{display:block;width:100%;height:auto;overflow:visible}
+
+
+
+
+
+@media(max-width:640px){.wordmark{width:130px}.theme-option{font-size:16px;padding:6px 8px}nav a{font-size:16px;padding:6px 8px}.site-label{display:none}}
+@media(max-width:380px){header{flex-wrap:nowrap;gap:10px}.wordmark{width:116px}.theme-option{padding:5px 7px}.footer-tools{gap:10px}footer{gap:12px}}
+
+/* Red-and-gold artwork opens every page; navigation starts below it. */
+.art-masthead{display:block;position:relative;isolation:isolate;overflow:hidden;width:100%;height:clamp(360px,50vh,560px);height:clamp(360px,50svh,560px);margin:0;padding:0;background:var(--bg)}
+.masthead-art{position:absolute;inset:0;z-index:-2;display:block}
+.masthead-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 52%}
+.art-masthead::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to bottom,transparent 58%,color-mix(in srgb,var(--bg) 25%,transparent) 76%,var(--bg) 100%)}
+.masthead-inner{position:relative;display:flex;align-items:center;width:100%;max-width:1100px;height:100%;margin:0 auto;padding:0 44px 45px}
+.masthead-brand{max-width:55%;color:#f7d883}
+.masthead-brand .wordmark{width:260px;max-width:100%;color:inherit}
+.masthead-name{margin:0;font-size:inherit;line-height:1}
+.art-masthead .theme-toggle{position:absolute;top:26px;right:44px;margin:0;z-index:1;background:var(--paper);border-color:var(--line)}
+.site>nav[aria-label="主导航"]{position:relative;flex-shrink:0;padding-top:18px;padding-bottom:20px;gap:12px 26px}
+.site>nav[aria-label="主导航"] a{font-size:18px;padding:8px 15px}
+.home-layout{display:block}.home-content{width:100%;max-width:900px}.home-content>section:first-child{padding-top:0}
+.home-section{margin-top:36px}.skills-grid{gap:32px}
+[data-theme=dark] .masthead-art img{filter:brightness(.72) saturate(.65)}
+[data-theme=dark] .art-masthead::after{background:linear-gradient(to bottom,rgba(24,27,57,.3),rgba(24,27,57,.1) 48%,var(--bg) 100%)}
+[data-theme=dark] .masthead-brand{color:var(--brand-cream)}
+@media(max-width:900px){.masthead-inner{padding-left:28px;padding-right:28px}.art-masthead .theme-toggle{right:28px}.masthead-brand .wordmark{width:230px}}
+@media(max-width:640px){.art-masthead{height:clamp(330px,52vh,430px);height:clamp(330px,52svh,430px)}.masthead-art img{object-position:50% 34%}.masthead-inner{padding:0 20px 38px}.masthead-brand{max-width:58%}.masthead-brand .wordmark{width:185px}.art-masthead .theme-toggle{top:20px;right:20px}.site>nav[aria-label="主导航"]{gap:8px;padding:10px 0 16px;justify-content:space-between}.site>nav[aria-label="主导航"] a{font-size:16px;padding:7px 8px}.skills-grid{gap:24px}}
+@media(max-width:380px){.masthead-inner{padding-left:16px;padding-right:16px}.art-masthead .theme-toggle{right:16px}.site>nav[aria-label="主导航"]{gap:4px}.site>nav[aria-label="主导航"] a{padding:7px 6px}}
+:root{--masthead-size:clamp(360px,50svh,560px)}
+.site{min-height:calc(100svh - var(--masthead-size))}
+@media(max-width:640px){:root{--masthead-size:clamp(330px,52svh,430px)}}
+
+/* Traditional clerical-script columns; seal stamps sit beside the fourth column. */
+:root{--masthead-size:clamp(440px,56svh,640px)}
+.art-masthead{height:var(--masthead-size)}
+.masthead-inner{align-items:flex-start;padding-top:34px;padding-bottom:32px}
+.masthead-brand{margin-left:88px;max-width:none;width:190px;color:#f7d883}
+.birthday-heading{margin:0;font-size:inherit;line-height:1}
+.birthday-greeting{display:block;width:100%;color:inherit}
+.birthday-columns{display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;font:34px/1.25 var(--font);letter-spacing:.1em}
+.birthday-column{display:block;writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap;font-weight:400}
+.dedication-seals{position:absolute;left:44px;top:190px;bottom:auto;display:flex;flex-direction:column;align-items:center;width:68px;gap:4px;color:#f7d883}
+.dedication-seal{width:64px;flex-shrink:0}
+.dedication-seal svg{display:block;width:100%;height:auto}
+.fortune-seal{width:88px}
+.fortune-seal img{display:block;width:100%;height:auto;clip-path:none}
+[data-theme=dark] .dedication-seals{color:var(--brand-cream)}
+.personal-introduction{max-width:900px}
+.personal-introduction p{font:22px/1.9 var(--font);margin:0;color:var(--ink)}
+@media(max-width:900px){.dedication-seals{left:28px}}
+@media(max-width:640px){:root{--masthead-size:clamp(420px,54svh,520px)}.art-masthead{height:var(--masthead-size)}.masthead-inner{padding-top:78px;padding-bottom:28px}.masthead-brand{margin-left:76px;width:156px;max-width:none}.birthday-columns{font-size:26px;letter-spacing:.1em}.dedication-seals{left:20px;top:214px;width:55px;gap:3px}.dedication-seal{width:52px}.fortune-seal{width:73px}.personal-introduction p{font-size:20px}}
+@media(max-width:380px){.dedication-seals{left:16px}.masthead-brand{margin-left:70px;width:145px}.birthday-columns{font-size:25px}}
+
+/* Four blessing columns and smaller, vertically joined seal marks. */
+.masthead-brand{margin-left:72px;width:240px}
+.birthday-columns{font-size:32px}
+.dedication-seals{top:200px;width:54px;gap:6px}
+.dedication-seal{width:50px}
+.fortune-seal{width:58px}
+@media(max-width:640px){.masthead-brand{margin-left:62px;width:196px}.birthday-columns{font-size:24px}.dedication-seals{top:196px;width:46px;gap:4px}.dedication-seal{width:42px}.fortune-seal{width:49px}}
+@media(max-width:380px){.masthead-brand{margin-left:62px;width:186px}.birthday-columns{font-size:23px}}
+
+/* Compact stamps share the same pale gold as the four-column inscription. */
+:root{--inscription-gold:#f7d883}
+.masthead-brand,.dedication-seals,[data-theme=dark] .masthead-brand,[data-theme=dark] .dedication-seals{color:var(--inscription-gold)}
+.dedication-seals{width:48px;gap:5px}
+.author-seal{width:43px}
+.fortune-seal{width:50px}
+.author-seal img{display:block;width:100%;height:auto}
+@media(max-width:640px){.dedication-seals{width:40px;gap:4px}.author-seal{width:36px}.fortune-seal{width:42px}}
+
+/* Slightly enlarge and lower the greeting; the signature begins between 延 and 年. */
+.masthead-inner{padding-top:96px}
+.masthead-brand{--blessing-size:37px;position:relative;margin-left:60px;width:190px;max-width:none}
+.birthday-columns{font-size:var(--blessing-size)}
+.birthday-signature{position:absolute;left:-48px;top:calc(var(--blessing-size) * 3.3);bottom:auto;width:25px;display:flex;flex-direction:column;align-items:center;gap:7px;color:var(--inscription-gold);pointer-events:none}
+.signature-writing{display:flex;flex-direction:column;align-items:center;width:25px;gap:4px}
+.signature-pair{display:block;width:100%;height:auto;overflow:visible}
+.signature-name-seal{width:25px;line-height:0}
+.signature-name-seal svg{display:block;width:100%;height:auto}
+.birthday-fortune-seal{position:absolute;left:calc(100% + 6px);top:0;width:27px;line-height:0}
+.birthday-fortune-seal img{display:block;width:100%;height:auto}
+.personal-name-mark{display:block;width:180px;max-width:100%;height:auto;color:var(--inscription-gold)}
+@media(max-width:640px){.masthead-inner{padding-top:130px}.masthead-brand{--blessing-size:27px;margin-left:62px;width:152px}.birthday-signature{left:-40px;width:21px;gap:5px}.signature-writing{width:21px;gap:3px}.signature-name-seal{width:21px}.birthday-fortune-seal{width:22px}.personal-name-mark{width:156px}}
+@media(max-width:380px){.masthead-brand{--blessing-size:26px;margin-left:62px;width:146px}}
+
+/* Independent day/night artwork; only the new night layer is hidden during daytime. */
+.masthead-art img.masthead-art-night{display:none}
+[data-theme=dark] .masthead-art img.masthead-art-day{display:none}
+[data-theme=dark] .masthead-art img.masthead-art-night{display:block;filter:none;object-position:50% 50%}
+[data-theme=dark] .art-masthead::after{background:linear-gradient(to bottom,transparent 48%,rgba(22,51,42,.18) 68%,var(--bg) 100%)}
+
+/* Enlarge the complete inscription equally, with independent day/night placement. */
+.masthead-brand{margin-left:46px;transform:scale(1.045);transform-origin:left top}
+[data-theme=dark] .masthead-inner{justify-content:center}
+[data-theme=dark] .masthead-brand{margin-left:140px;transform-origin:center top}
+@media(max-width:640px){.masthead-brand{margin-left:50px}[data-theme=dark] .masthead-brand{margin-left:84px}}
+
+/* Five daytime vertical columns beneath the central plum blossoms. */
+.birthday-day-groups{display:none}
+:root:not([data-theme=dark]) .masthead-art img.masthead-art-day{height:114%;object-position:50% 80%}
+:root:not([data-theme=dark]) .masthead-brand{--day-title-size:36px;position:absolute;left:calc(50% - 32px);top:calc(54% + 56px);bottom:auto;width:max-content;max-width:none;margin-left:0;transform:translateX(-50%);isolation:isolate}
+:root:not([data-theme=dark]) .birthday-columns{display:none}
+:root:not([data-theme=dark]) .birthday-day-groups{display:flex;flex-direction:row-reverse;align-items:flex-start;gap:8.82px;font:400 var(--day-title-size)/1.25 var(--font);letter-spacing:.08em;text-shadow:0 1px 2px rgba(61,5,11,.8)}
+:root:not([data-theme=dark]) .day-greeting-column{display:block;writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap}
+:root:not([data-theme=dark]) .masthead-brand::before{content:"";position:absolute;z-index:-1;inset:-25px -30px -24px 0;pointer-events:none;background:radial-gradient(ellipse,rgba(83,10,18,.32),rgba(83,10,18,.10) 65%,transparent 100%)}
+:root:not([data-theme=dark]) .birthday-signature{left:-34px;top:auto;bottom:0;width:20px;gap:6px;filter:drop-shadow(0 1px 1px rgba(61,5,11,.6))}
+:root:not([data-theme=dark]) .signature-writing{width:20px;gap:4px}
+:root:not([data-theme=dark]) .signature-name-seal{width:20px}
+:root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + 6px);top:0;width:25px;filter:drop-shadow(0 1px 1px rgba(61,5,11,.6))}
+@media(max-width:640px){
+ :root:not([data-theme=dark]) .masthead-brand{--day-title-size:28.571429px;left:50%;top:calc(54% - 20px);bottom:auto}
+ :root:not([data-theme=dark]) .birthday-day-groups{gap:6.615px;letter-spacing:.06em}
+  :root:not([data-theme=dark]) .birthday-signature{left:-28px;width:17px;gap:5px}
+ :root:not([data-theme=dark]) .signature-writing{width:17px;gap:3px}
+ :root:not([data-theme=dark]) .signature-name-seal{width:18px}
+ :root:not([data-theme=dark]) .birthday-fortune-seal{width:21px}
+ :root:not([data-theme=dark]) .masthead-brand::before{inset:-22px -18px -22px 0}
+}
+
+/* Additional daytime blessing beneath the plum blossoms on the left. */
+.birthday-day-wishes{display:none}
+:root:not([data-theme=dark]) .birthday-day-wishes{position:absolute;left:max(-284px,calc((min(100vw,1100px) - 100vw)/2 + 34px));top:calc(54% + 56px);display:flex;flex-direction:row-reverse;align-items:flex-start;gap:8.82px;color:var(--inscription-gold);font:400 36px/1.25 var(--font);letter-spacing:.08em;text-shadow:0 1px 2px rgba(61,5,11,.8);isolation:isolate}
+.day-wish-column{display:block;writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap}
+:root:not([data-theme=dark]) .birthday-day-wishes::before{content:"";position:absolute;z-index:-1;inset:-18px -22px;pointer-events:none;background:radial-gradient(ellipse,rgba(83,10,18,.48),rgba(83,10,18,.17) 65%,transparent 100%)}
+@media(max-width:900px) and (min-width:641px){:root:not([data-theme=dark]) .birthday-day-wishes{left:34px;font-size:clamp(21.714286px,3.485714vw,31.428571px);gap:4.41px}}
+@media(max-width:640px){:root:not([data-theme=dark]) .birthday-day-wishes{left:28px;top:auto;bottom:0;font-size:20.571429px;gap:4.41px;letter-spacing:.06em}}
+
+/* Keep the daytime signature beside the leftmost 老松 column. */
+:root:not([data-theme=dark]) .masthead-brand > .birthday-signature{display:none}
+
+/* Keep aligned desktop groups separate on narrower tablet screens. */
+@media(min-width:641px) and (max-width:900px){:root:not([data-theme=dark]) .masthead-brand{left:max(calc(50% - 32px),calc(248px + clamp(162.857143px,26.142857vw,235.714286px)))}}
+
+/* Lower both mobile groups without clipping the bottom-aligned inscription. */
+@media(max-width:640px){:root:not([data-theme=dark]){--masthead-size:calc(clamp(420px,54svh,520px) + 12px)}:root:not([data-theme=dark]) .masthead-brand{top:calc(54% - 26.48px)}}
+
+/* Align both groups while keeping the longest column within short banners. */
+@media(min-width:641px){:root:not([data-theme=dark]) .masthead-brand,:root:not([data-theme=dark]) .birthday-day-wishes{top:min(calc(54% + 56px),calc(100% - 200px))}}
+
+/* Seven night-only columns; fit the longer dedication within the artwork. */
+[data-theme=dark] .masthead-brand{--blessing-size:clamp(24px,calc((var(--masthead-size) - 120px)/10.35),37px);top:min(76px,calc(var(--masthead-size) - 100px - var(--blessing-size)*9.2));left:20px;width:max-content;flex-shrink:0}
+[data-theme=dark] .birthday-columns{justify-content:flex-start;gap:10px}
+@media(max-width:640px){[data-theme=dark] .masthead-brand{--blessing-size:clamp(19px,5.2vw,27px);margin-left:20px;left:12px;top:min(76px,calc(var(--masthead-size) - 134px - var(--blessing-size)*9.2))}[data-theme=dark] .birthday-columns{gap:5px}}
+
+/* Allow the added name column without overlapping the left-hand blessing. */
+@media(min-width:901px){:root:not([data-theme=dark]) .masthead-brand{left:max(calc(50% - 32px),calc(max(-284px,calc((min(100vw,1100px) - 100vw)/2 + 34px)) + 484.24px))}}
+
+/* Silver-white night lettering echoes the pale texture in the pine artwork. */
+:root[data-theme=dark]{--inscription-gold:#E6E7E2;--ink:#E6E7E2;--navy:#E6E7E2;--muted:#C5CBC7;--blue:#E6E7E2}
+:root[data-theme=dark] #signature-ink feFlood{flood-color:var(--inscription-gold)}
+:root[data-theme=dark] nav a[aria-current=page],:root[data-theme=dark] .night-option{background:#365B4C;color:var(--inscription-gold)}
