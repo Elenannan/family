@@ -323,3 +323,15 @@ button,input,textarea,select{font-family:var(--font)}
   transform-origin:center top;
  }
 }
+
+/* Keep the daytime greeting clear of the plum blossoms. */
+:root:not([data-theme=dark]) .masthead-brand{
+ transform:translate(-50%,56px) scale(.8);
+ transform-origin:center top;
+}
+@media(max-width:900px){
+ :root:not([data-theme=dark]) .masthead-brand{transform:translate(-50%,4.426877cqw) scale(.8)}
+}
+@media(max-width:640px){
+ :root:not([data-theme=dark]) .masthead-brand{transform:translate(-50%,4.426877cqw) scale(.72)}
+}
