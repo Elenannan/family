@@ -1,0 +1,13 @@
+题字及全站正文：Apple 隶变简体（STLibianSC-Regular）。
+正文以内嵌 WOFF2 加载字体，保留原始署名和字体信息。源字体 OS/2 fsType 为 8（允许可编辑嵌入），用于此个人网站文档及其文字编辑。
+
+“福祿壽”立体印章：基于用户提供的 IMG_1597.jpg，以内置 image_gen 图像编辑工具调整内部填充为题字浅金色，保留立体样式和橙色笔画。原参考图另存为 fulushou-cube.jpg。
+
+个人简介中的“盛寶森”：崇羲篆體（Chong Xi Small Seal），字形书写：王心怡；合作研究团队：谢清俊、庄德明、季旭昇及中央研究院团队。
+官方网站：https://xiaoxue.iis.sinica.edu.tw/chongxi/
+授权说明：https://xiaoxue.iis.sinica.edu.tw/chongxi/copyright.htm
+CC-BY-ND-3.0-TW-or-later。使用项目已有的原字体排版矢量字形，未修改字形设计，未分发字体程序。
+
+本次题字：三列祝贺词继续使用隶变字体。竖排行草“丙午冬月琪敏”使用内置 image_gen 生成的书法图。两字“琪敏”印章使用项目已有崇羲篆體排版，左敏右琪，署名及授权同上。新立体印章来自用户 IMG_1602.jpg，保留其原有字形与透视，仅编辑内外底色。
+
+最新落款“丙午小雪”：分别取自用户 IMG_1631.jpg 与 IMG_1629.heic 的书法字形，经内置 image_gen 提取透明背景，在网页中显示为与祝贺词一致的金色。替换原六字落款。
