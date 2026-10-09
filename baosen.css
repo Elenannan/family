@@ -178,20 +178,20 @@ button,input,textarea,select{font-family:var(--font)}
 
 /* Keep inscriptions inside the artwork at every viewport width. */
 :root:not([data-theme=dark]) .masthead-inner{max-width:none;--day-inset:clamp(64px,6vw,120px);--day-gap:clamp(48px,5vw,80px)}
-:root:not([data-theme=dark]) .birthday-day-wishes{left:var(--day-inset);top:min(calc(54% + 36px),calc(100% - 214px));bottom:auto}
-:root:not([data-theme=dark]) .masthead-brand{left:max(calc(50% - 130px),calc(var(--day-inset) + 314.1px + var(--day-gap)));top:min(calc(54% + 36px),calc(100% - 214px));transform:none}
+:root:not([data-theme=dark]) .birthday-day-wishes{font-size:32px;left:var(--day-inset);top:min(calc(54% + 36px),calc(100% - 214px));bottom:auto}
+:root:not([data-theme=dark]) .masthead-brand{--day-title-size:32px;left:max(calc(50% - 130px),calc(var(--day-inset) + 314.1px + var(--day-gap)));top:min(calc(54% + 36px),calc(100% - 214px));transform:none}
 [data-theme=dark] .masthead-brand{--blessing-size:clamp(24px,calc((var(--masthead-size) - 160px)/10.35),37px);position:absolute;left:calc(50% + 70px);top:auto;bottom:32px;margin-left:0;transform:translateX(-50%) scale(1.045)}
 @media(min-width:641px) and (max-width:900px){
  :root:not([data-theme=dark]) .masthead-inner{--day-inset:60px;--day-gap:36px}
- :root:not([data-theme=dark]) .birthday-day-wishes{font-size:28px;gap:6px}
- :root:not([data-theme=dark]) .masthead-brand{--day-title-size:28px;left:calc(var(--day-inset) + 240px + var(--day-gap))}
+ :root:not([data-theme=dark]) .birthday-day-wishes{font-size:25px;gap:6px}
+ :root:not([data-theme=dark]) .masthead-brand{--day-title-size:25px;left:calc(var(--day-inset) + 240px + var(--day-gap))}
  :root:not([data-theme=dark]) .birthday-day-groups{gap:6px}
 }
 @media(max-width:640px){
  :root:not([data-theme=dark]){--masthead-size:clamp(620px,72svh,680px)}
- :root:not([data-theme=dark]) .masthead-brand{--day-title-size:28px;left:50%;top:calc(100% - 320px);transform:translateX(-50%)}
+ :root:not([data-theme=dark]) .masthead-brand{--day-title-size:25px;left:50%;top:calc(100% - 320px);transform:translateX(-50%)}
  :root:not([data-theme=dark]) .birthday-day-groups{gap:6px}
- :root:not([data-theme=dark]) .birthday-day-wishes{left:calc(50% - 104px);top:auto;bottom:24px;font-size:28px;gap:5px}
+ :root:not([data-theme=dark]) .birthday-day-wishes{left:calc(50% - 104px);top:auto;bottom:24px;font-size:25px;gap:5px}
  :root:not([data-theme=dark]) .birthday-day-signature{left:-28px;bottom:0}
  [data-theme=dark] .masthead-brand{--blessing-size:clamp(19px,5.2vw,27px);left:calc(50% + 18px);top:auto;bottom:34px;margin-left:0}
 }
