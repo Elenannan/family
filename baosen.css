@@ -200,3 +200,31 @@ button,input,textarea,select{font-family:var(--font)}
 [data-theme=dark] .birthday-signature{width:calc(var(--blessing-size)*.52);gap:4px}
 [data-theme=dark] .signature-writing{width:100%;gap:3px}
 [data-theme=dark] .signature-name-seal{width:100%}
+
+/* Mobile-only complete artwork; all inscription dimensions scale with its width. */
+@media(max-width:640px){
+ .art-masthead{height:auto;min-height:0;container-type:inline-size;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+ .art-masthead .masthead-art{position:relative;inset:auto}
+ :root .art-masthead .masthead-art img{width:100%;height:auto;object-fit:contain;object-position:center}
+ :root .art-masthead .masthead-inner{position:absolute;inset:0;width:100%;max-width:none;height:100%;padding:0;margin:0}
+ .art-masthead::after,:root[data-theme=dark] .art-masthead::after{background:linear-gradient(to bottom,transparent 88%,var(--bg) 100%)}
+ .site{min-height:0}
+ :root:not([data-theme=dark]) .masthead-brand{--day-title-size:2.5cqw;left:40%;top:54%;bottom:auto;transform:none;margin:0}
+ :root:not([data-theme=dark]) .birthday-day-wishes{left:6%;top:54%;bottom:auto;font-size:2.5cqw;gap:.6890625cqw;letter-spacing:.08em}
+ :root:not([data-theme=dark]) .birthday-day-groups{gap:.6890625cqw;letter-spacing:.08em}
+ :root:not([data-theme=dark]) .birthday-signature{left:-2.65625cqw;top:auto;bottom:0;width:1.5625cqw;gap:.46875cqw}
+ :root:not([data-theme=dark]) .signature-writing{width:1.5625cqw;gap:.3125cqw}
+ :root:not([data-theme=dark]) .signature-name-seal{width:1.5625cqw}
+ :root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + .46875cqw);width:1.953125cqw}
+ :root:not([data-theme=dark]) .masthead-brand::before{inset:-1.953125cqw -2.34375cqw -1.875cqw 0}
+ :root:not([data-theme=dark]) .birthday-day-wishes::before{inset:-1.40625cqw -1.71875cqw}
+ :root[data-theme=dark] .masthead-brand{--blessing-size:2.890625cqw;left:55.5%;top:31%;bottom:auto;margin:0;transform:translateX(-50%) scale(1.045)}
+ [data-theme=dark] .birthday-columns{gap:.78125cqw}
+ [data-theme=dark] .birthday-signature{left:-3.75cqw;top:calc(var(--blessing-size)*3.3);bottom:auto;width:calc(var(--blessing-size)*.52);gap:.3125cqw}
+ [data-theme=dark] .signature-writing{width:100%;gap:.234375cqw}
+ [data-theme=dark] .signature-name-seal{width:100%}
+ [data-theme=dark] .birthday-fortune-seal{left:calc(100% + .46875cqw);width:2.109375cqw}
+ .art-masthead .theme-toggle{top:6px;right:6px;min-height:32px;padding:2px;gap:0}
+ .art-masthead .theme-option{font-size:11px;line-height:1.4;padding:4px 7px;gap:3px}
+ .art-masthead .theme-option svg{display:none}
+}
