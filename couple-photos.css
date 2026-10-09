@@ -23,3 +23,17 @@
  .couple-album .couple-grid{gap:1.998335cqw}
  .couple-album .couple-grid-portrait{margin-top:2.997502cqw}
 }
+
+/* Match row gaps to the visible column gaps around the 95%-wide photos.
+   Visible column gap = grid gap + 5% of one grid column. */
+.couple-album{container-type:inline-size}
+.couple-album .couple-grid{
+ --column-gap:24px;
+ --visible-gap:calc(1.666667cqw + var(--column-gap)*.9666667);
+ column-gap:var(--column-gap);
+ row-gap:var(--visible-gap);
+}
+.couple-album .couple-grid-portrait{margin-top:var(--visible-gap)}
+@media(max-width:900px){
+ .couple-album .couple-grid{--column-gap:1.998335cqw}
+}
