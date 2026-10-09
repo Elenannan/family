@@ -228,3 +228,18 @@ button,input,textarea,select{font-family:var(--font)}
  .art-masthead .theme-option{font-size:11px;line-height:1.4;padding:4px 7px;gap:3px}
  .art-masthead .theme-option svg{display:none}
 }
+
+/* A centered welcome page using the site's existing clerical-script face. */
+.welcome-home{display:flex;align-items:center;justify-content:center;text-align:center;padding:72px 0 88px}
+.welcome-message{width:100%;margin:auto;color:var(--inscription-gold)}
+.welcome-blessing{font:400 clamp(23px,2.5vw,32px)/1.9 var(--font);color:inherit;letter-spacing:.04em;margin:0 0 26px}
+.welcome-blessing span{display:inline-block}
+.welcome-invitation{font-size:clamp(21px,2vw,27px);line-height:1.9;margin:0 0 22px}
+.welcome-details{font-size:clamp(18px,1.6vw,22px);line-height:1.8;margin:0}
+@media(max-width:640px){
+ .welcome-home{padding:44px 0 54px}
+ .welcome-blessing{font-size:23px;letter-spacing:0;margin-bottom:24px}
+ .welcome-blessing .welcome-names{display:block}
+ .welcome-invitation{font-size:20px;max-width:16em;margin:0 auto 22px;text-wrap:balance}
+ .welcome-details{font-size:17px}
+}
