@@ -342,3 +342,29 @@ button,input,textarea,select{font-family:var(--font)}
  transform:translate(-50%,-50%) scale(.9375);
  transform-origin:center center;
 }
+
+/* Phone-specific artwork crops and readable inscriptions. Desktop stays unchanged. */
+@media(max-width:640px){
+ .art-masthead{height:clamp(400px,108vw,540px);aspect-ratio:auto}
+ :root:not([data-theme=dark]) .art-masthead .masthead-art img.masthead-art-day{height:100%;object-fit:cover;object-position:70% 50%}
+ :root:not([data-theme=dark]) .masthead-brand{
+  --day-title-size:clamp(21px,5.5cqw,28px);
+  left:42%;top:43%;bottom:auto;
+  transform:translateX(-50%);transform-origin:center top;
+ }
+ :root:not([data-theme=dark]) .birthday-day-groups{gap:clamp(5px,1.3cqw,7px)}
+ :root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + 4px);width:calc(var(--day-title-size)*.7)}
+ :root[data-theme=dark] .art-masthead{height:clamp(340px,94vw,470px)}
+ :root[data-theme=dark] .art-masthead .masthead-art img.masthead-art-night{height:100%;object-fit:cover;object-position:50% 50%}
+ :root[data-theme=dark] .masthead-brand{
+  --blessing-size:clamp(21px,5.5cqw,28px);
+  left:53%;top:52%;bottom:auto;
+  transform:translate(-50%,-50%);transform-origin:center center;
+ }
+ :root[data-theme=dark] .birthday-columns{gap:clamp(5px,1.3cqw,7px)}
+ :root[data-theme=dark] .birthday-signature{gap:4px}
+ :root[data-theme=dark] .signature-writing{gap:3px}
+ :root[data-theme=dark] .birthday-fortune-seal{left:calc(100% + 4px);width:calc(var(--blessing-size)*.7)}
+ .art-masthead .theme-toggle{top:12px;right:12px;min-height:40px;padding:3px;gap:2px}
+ .art-masthead .theme-option{font-size:12px;padding:6px 9px}
+}

@@ -37,3 +37,12 @@
 @media(max-width:900px){
  .couple-album .couple-grid{--column-gap:1.998335cqw}
 }
+
+/* One large, flippable photo per row on phones. */
+@media(max-width:640px){
+ .site:has(> .couple-album){width:calc(100% - 24px);padding-inline:0}
+ .couple-album{padding:20px 0 40px}
+ .couple-album .couple-grid{grid-template-columns:1fr;gap:20px}
+ .couple-album .couple-grid-portrait{margin-top:20px}
+ .couple-album .photo-flip-button{width:100%}
+}
