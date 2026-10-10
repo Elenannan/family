@@ -1,0 +1,2593 @@
+{
+  "祥文宫殿.jpg": {
+    "width": 1672,
+    "height": 709,
+    "original_bytes": 2663646,
+    "photo": false,
+    "variants": [
+      {
+        "src": "assets/optimized/17f93c3d5f355c9e-1672.webp",
+        "width": 1672,
+        "bytes": 273208
+      }
+    ]
+  },
+  "松鹤延年.jpg": {
+    "width": 1672,
+    "height": 940,
+    "original_bytes": 801796,
+    "photo": false,
+    "variants": [
+      {
+        "src": "assets/optimized/0b97d5de5a7db3a4-1672.webp",
+        "width": 1672,
+        "bytes": 377438
+      }
+    ]
+  },
+  "assets/fortune-cube-1602-gold.png": {
+    "width": 1204,
+    "height": 1306,
+    "original_bytes": 861613,
+    "photo": false,
+    "variants": [
+      {
+        "src": "assets/optimized/4bf2ce57a386519f-1204.webp",
+        "width": 1204,
+        "bytes": 92024
+      }
+    ]
+  },
+  "二人照片/双人8.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1673356,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2f131ca196dc14b0-640.webp",
+        "width": 640,
+        "bytes": 33854
+      },
+      {
+        "src": "assets/optimized/2f131ca196dc14b0-960.webp",
+        "width": 960,
+        "bytes": 54590
+      },
+      {
+        "src": "assets/optimized/2f131ca196dc14b0-1600.webp",
+        "width": 1600,
+        "bytes": 96678
+      }
+    ]
+  },
+  "二人照片/双人8-back.JPG": {
+    "width": 1083,
+    "height": 866,
+    "original_bytes": 974879,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b3896233a6ddcf2b-640.webp",
+        "width": 640,
+        "bytes": 52940
+      },
+      {
+        "src": "assets/optimized/b3896233a6ddcf2b-960.webp",
+        "width": 960,
+        "bytes": 90752
+      },
+      {
+        "src": "assets/optimized/b3896233a6ddcf2b-1083.webp",
+        "width": 1083,
+        "bytes": 108582
+      }
+    ]
+  },
+  "二人照片/双人9.JPEG": {
+    "width": 4096,
+    "height": 2588,
+    "original_bytes": 1757862,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/e385b4fa9635e230-640.webp",
+        "width": 640,
+        "bytes": 44064
+      },
+      {
+        "src": "assets/optimized/e385b4fa9635e230-960.webp",
+        "width": 960,
+        "bytes": 74384
+      },
+      {
+        "src": "assets/optimized/e385b4fa9635e230-1600.webp",
+        "width": 1600,
+        "bytes": 137282
+      }
+    ]
+  },
+  "二人照片/双人9-back.JPG": {
+    "width": 1061,
+    "height": 819,
+    "original_bytes": 1188438,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2776f60cb07dfdcd-640.webp",
+        "width": 640,
+        "bytes": 83042
+      },
+      {
+        "src": "assets/optimized/2776f60cb07dfdcd-960.webp",
+        "width": 960,
+        "bytes": 162752
+      },
+      {
+        "src": "assets/optimized/2776f60cb07dfdcd-1061.webp",
+        "width": 1061,
+        "bytes": 188904
+      }
+    ]
+  },
+  "二人照片/奶奶8.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 3368188,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/8c0236ec45ae74fb-640.webp",
+        "width": 640,
+        "bytes": 58998
+      },
+      {
+        "src": "assets/optimized/8c0236ec45ae74fb-960.webp",
+        "width": 960,
+        "bytes": 122818
+      },
+      {
+        "src": "assets/optimized/8c0236ec45ae74fb-1600.webp",
+        "width": 1600,
+        "bytes": 288844
+      }
+    ]
+  },
+  "二人照片/奶奶8-back.jpg": {
+    "width": 1024,
+    "height": 987,
+    "original_bytes": 513098,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/e378d49ffae4cb37-640.webp",
+        "width": 640,
+        "bytes": 88492
+      },
+      {
+        "src": "assets/optimized/e378d49ffae4cb37-960.webp",
+        "width": 960,
+        "bytes": 186632
+      },
+      {
+        "src": "assets/optimized/e378d49ffae4cb37-1024.webp",
+        "width": 1024,
+        "bytes": 229910
+      }
+    ]
+  },
+  "二人照片/奶奶5.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2077986,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/937ae143b06adef5-640.webp",
+        "width": 640,
+        "bytes": 45778
+      },
+      {
+        "src": "assets/optimized/937ae143b06adef5-960.webp",
+        "width": 960,
+        "bytes": 74000
+      },
+      {
+        "src": "assets/optimized/937ae143b06adef5-1600.webp",
+        "width": 1600,
+        "bytes": 141196
+      }
+    ]
+  },
+  "二人照片/奶奶5-back.JPG": {
+    "width": 1024,
+    "height": 736,
+    "original_bytes": 1063687,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/cd45fe52e4df5eec-640.webp",
+        "width": 640,
+        "bytes": 84666
+      },
+      {
+        "src": "assets/optimized/cd45fe52e4df5eec-960.webp",
+        "width": 960,
+        "bytes": 140756
+      },
+      {
+        "src": "assets/optimized/cd45fe52e4df5eec-1024.webp",
+        "width": 1024,
+        "bytes": 154144
+      }
+    ]
+  },
+  "二人照片/双人13.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1636372,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2fd152066643a6d0-640.webp",
+        "width": 640,
+        "bytes": 18668
+      },
+      {
+        "src": "assets/optimized/2fd152066643a6d0-960.webp",
+        "width": 960,
+        "bytes": 28658
+      },
+      {
+        "src": "assets/optimized/2fd152066643a6d0-1600.webp",
+        "width": 1600,
+        "bytes": 54726
+      }
+    ]
+  },
+  "二人照片/双人13-back.JPG": {
+    "width": 1024,
+    "height": 633,
+    "original_bytes": 450345,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b785fac68879120a-640.webp",
+        "width": 640,
+        "bytes": 23394
+      },
+      {
+        "src": "assets/optimized/b785fac68879120a-960.webp",
+        "width": 960,
+        "bytes": 37838
+      },
+      {
+        "src": "assets/optimized/b785fac68879120a-1024.webp",
+        "width": 1024,
+        "bytes": 41842
+      }
+    ]
+  },
+  "二人照片/爷爷1.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2015449,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/96a7eb691741fd04-640.webp",
+        "width": 640,
+        "bytes": 39762
+      },
+      {
+        "src": "assets/optimized/96a7eb691741fd04-960.webp",
+        "width": 960,
+        "bytes": 63024
+      },
+      {
+        "src": "assets/optimized/96a7eb691741fd04-1600.webp",
+        "width": 1600,
+        "bytes": 117006
+      }
+    ]
+  },
+  "二人照片/爷爷1-back.JPG": {
+    "width": 1024,
+    "height": 779,
+    "original_bytes": 986478,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d05b5f82d421fe79-640.webp",
+        "width": 640,
+        "bytes": 53186
+      },
+      {
+        "src": "assets/optimized/d05b5f82d421fe79-960.webp",
+        "width": 960,
+        "bytes": 86764
+      },
+      {
+        "src": "assets/optimized/d05b5f82d421fe79-1024.webp",
+        "width": 1024,
+        "bytes": 93814
+      }
+    ]
+  },
+  "二人照片/奶奶2.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2088767,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/0688e496371531de-640.webp",
+        "width": 640,
+        "bytes": 60584
+      },
+      {
+        "src": "assets/optimized/0688e496371531de-960.webp",
+        "width": 960,
+        "bytes": 97394
+      },
+      {
+        "src": "assets/optimized/0688e496371531de-1600.webp",
+        "width": 1600,
+        "bytes": 175572
+      }
+    ]
+  },
+  "二人照片/奶奶2-back.JPG": {
+    "width": 1024,
+    "height": 687,
+    "original_bytes": 883857,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/9464015e9dd66aed-640.webp",
+        "width": 640,
+        "bytes": 62744
+      },
+      {
+        "src": "assets/optimized/9464015e9dd66aed-960.webp",
+        "width": 960,
+        "bytes": 100732
+      },
+      {
+        "src": "assets/optimized/9464015e9dd66aed-1024.webp",
+        "width": 1024,
+        "bytes": 108392
+      }
+    ]
+  },
+  "二人照片/双人11.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2649286,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b712df5946a80186-640.webp",
+        "width": 640,
+        "bytes": 34106
+      },
+      {
+        "src": "assets/optimized/b712df5946a80186-960.webp",
+        "width": 960,
+        "bytes": 73274
+      },
+      {
+        "src": "assets/optimized/b712df5946a80186-1600.webp",
+        "width": 1600,
+        "bytes": 184052
+      }
+    ]
+  },
+  "二人照片/双人11-back.JPG": {
+    "width": 1073,
+    "height": 952,
+    "original_bytes": 1044837,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/3f6e2a577886b16f-640.webp",
+        "width": 640,
+        "bytes": 49858
+      },
+      {
+        "src": "assets/optimized/3f6e2a577886b16f-960.webp",
+        "width": 960,
+        "bytes": 82942
+      },
+      {
+        "src": "assets/optimized/3f6e2a577886b16f-1073.webp",
+        "width": 1073,
+        "bytes": 96592
+      }
+    ]
+  },
+  "二人照片/爷爷2.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1744754,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/3c4e86e0b829e25a-640.webp",
+        "width": 640,
+        "bytes": 36548
+      },
+      {
+        "src": "assets/optimized/3c4e86e0b829e25a-960.webp",
+        "width": 960,
+        "bytes": 56658
+      },
+      {
+        "src": "assets/optimized/3c4e86e0b829e25a-1600.webp",
+        "width": 1600,
+        "bytes": 102044
+      }
+    ]
+  },
+  "二人照片/爷爷2-back.JPG": {
+    "width": 1024,
+    "height": 740,
+    "original_bytes": 906960,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/ae9ce2f109ee35ce-640.webp",
+        "width": 640,
+        "bytes": 47242
+      },
+      {
+        "src": "assets/optimized/ae9ce2f109ee35ce-960.webp",
+        "width": 960,
+        "bytes": 78584
+      },
+      {
+        "src": "assets/optimized/ae9ce2f109ee35ce-1024.webp",
+        "width": 1024,
+        "bytes": 85430
+      }
+    ]
+  },
+  "二人照片/双人12.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2432379,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a38ad877834d6097-640.webp",
+        "width": 640,
+        "bytes": 24646
+      },
+      {
+        "src": "assets/optimized/a38ad877834d6097-960.webp",
+        "width": 960,
+        "bytes": 41606
+      },
+      {
+        "src": "assets/optimized/a38ad877834d6097-1600.webp",
+        "width": 1600,
+        "bytes": 87472
+      }
+    ]
+  },
+  "二人照片/双人12-back.JPG": {
+    "width": 1024,
+    "height": 772,
+    "original_bytes": 692127,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/6a55169b07ef33a3-640.webp",
+        "width": 640,
+        "bytes": 27644
+      },
+      {
+        "src": "assets/optimized/6a55169b07ef33a3-960.webp",
+        "width": 960,
+        "bytes": 42116
+      },
+      {
+        "src": "assets/optimized/6a55169b07ef33a3-1024.webp",
+        "width": 1024,
+        "bytes": 45754
+      }
+    ]
+  },
+  "二人照片/奶奶1.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2292185,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/764355954aa2973d-640.webp",
+        "width": 640,
+        "bytes": 49216
+      },
+      {
+        "src": "assets/optimized/764355954aa2973d-960.webp",
+        "width": 960,
+        "bytes": 79136
+      },
+      {
+        "src": "assets/optimized/764355954aa2973d-1600.webp",
+        "width": 1600,
+        "bytes": 143052
+      }
+    ]
+  },
+  "二人照片/奶奶1-back.jpg": {
+    "width": 978,
+    "height": 657,
+    "original_bytes": 237008,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2c519c05ba49f33b-640.webp",
+        "width": 640,
+        "bytes": 57450
+      },
+      {
+        "src": "assets/optimized/2c519c05ba49f33b-960.webp",
+        "width": 960,
+        "bytes": 89976
+      },
+      {
+        "src": "assets/optimized/2c519c05ba49f33b-978.webp",
+        "width": 978,
+        "bytes": 91756
+      }
+    ]
+  },
+  "二人照片/奶奶10.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 1839937,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/63711308285b4741-640.webp",
+        "width": 640,
+        "bytes": 31132
+      },
+      {
+        "src": "assets/optimized/63711308285b4741-960.webp",
+        "width": 960,
+        "bytes": 48546
+      },
+      {
+        "src": "assets/optimized/63711308285b4741-1600.webp",
+        "width": 1600,
+        "bytes": 92466
+      }
+    ]
+  },
+  "二人照片/奶奶10-back.JPG": {
+    "width": 1024,
+    "height": 698,
+    "original_bytes": 962577,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/e0200762037e74f1-640.webp",
+        "width": 640,
+        "bytes": 50866
+      },
+      {
+        "src": "assets/optimized/e0200762037e74f1-960.webp",
+        "width": 960,
+        "bytes": 78820
+      },
+      {
+        "src": "assets/optimized/e0200762037e74f1-1024.webp",
+        "width": 1024,
+        "bytes": 85146
+      }
+    ]
+  },
+  "二人照片/爷爷3.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1952521,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/e5bc64397083b40c-640.webp",
+        "width": 640,
+        "bytes": 36292
+      },
+      {
+        "src": "assets/optimized/e5bc64397083b40c-960.webp",
+        "width": 960,
+        "bytes": 59778
+      },
+      {
+        "src": "assets/optimized/e5bc64397083b40c-1600.webp",
+        "width": 1600,
+        "bytes": 109074
+      }
+    ]
+  },
+  "二人照片/爷爷3-back.JPG": {
+    "width": 1024,
+    "height": 775,
+    "original_bytes": 884386,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a592ad384b4d6821-640.webp",
+        "width": 640,
+        "bytes": 45944
+      },
+      {
+        "src": "assets/optimized/a592ad384b4d6821-960.webp",
+        "width": 960,
+        "bytes": 76818
+      },
+      {
+        "src": "assets/optimized/a592ad384b4d6821-1024.webp",
+        "width": 1024,
+        "bytes": 83092
+      }
+    ]
+  },
+  "家人合影/家人1.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2108730,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b8d9b2e9df37295d-640.webp",
+        "width": 640,
+        "bytes": 40796
+      },
+      {
+        "src": "assets/optimized/b8d9b2e9df37295d-960.webp",
+        "width": 960,
+        "bytes": 65856
+      },
+      {
+        "src": "assets/optimized/b8d9b2e9df37295d-1600.webp",
+        "width": 1600,
+        "bytes": 118046
+      }
+    ]
+  },
+  "家人合影/家人1-back.JPG": {
+    "width": 1047,
+    "height": 749,
+    "original_bytes": 962885,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/338261ae2b30442a-640.webp",
+        "width": 640,
+        "bytes": 62356
+      },
+      {
+        "src": "assets/optimized/338261ae2b30442a-960.webp",
+        "width": 960,
+        "bytes": 108562
+      },
+      {
+        "src": "assets/optimized/338261ae2b30442a-1047.webp",
+        "width": 1047,
+        "bytes": 122138
+      }
+    ]
+  },
+  "家人合影/家人22.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2079655,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/906a907a79d444f2-640.webp",
+        "width": 640,
+        "bytes": 33184
+      },
+      {
+        "src": "assets/optimized/906a907a79d444f2-960.webp",
+        "width": 960,
+        "bytes": 56452
+      },
+      {
+        "src": "assets/optimized/906a907a79d444f2-1600.webp",
+        "width": 1600,
+        "bytes": 107768
+      }
+    ]
+  },
+  "家人合影/家人22-back.JPG": {
+    "width": 1276,
+    "height": 958,
+    "original_bytes": 131410,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b5a8b16bf9c7927e-640.webp",
+        "width": 640,
+        "bytes": 42960
+      },
+      {
+        "src": "assets/optimized/b5a8b16bf9c7927e-960.webp",
+        "width": 960,
+        "bytes": 72994
+      },
+      {
+        "src": "assets/optimized/b5a8b16bf9c7927e-1276.webp",
+        "width": 1276,
+        "bytes": 104372
+      }
+    ]
+  },
+  "家人合影/家人13.JPEG": {
+    "width": 4096,
+    "height": 2588,
+    "original_bytes": 1804974,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2e1efb89786c2ba8-640.webp",
+        "width": 640,
+        "bytes": 35758
+      },
+      {
+        "src": "assets/optimized/2e1efb89786c2ba8-960.webp",
+        "width": 960,
+        "bytes": 57976
+      },
+      {
+        "src": "assets/optimized/2e1efb89786c2ba8-1600.webp",
+        "width": 1600,
+        "bytes": 105796
+      }
+    ]
+  },
+  "家人合影/家人13-back.JPG": {
+    "width": 1707,
+    "height": 1280,
+    "original_bytes": 197327,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/67b6f7d12a33d8c1-640.webp",
+        "width": 640,
+        "bytes": 36718
+      },
+      {
+        "src": "assets/optimized/67b6f7d12a33d8c1-960.webp",
+        "width": 960,
+        "bytes": 62076
+      },
+      {
+        "src": "assets/optimized/67b6f7d12a33d8c1-1600.webp",
+        "width": 1600,
+        "bytes": 121796
+      }
+    ]
+  },
+  "家人合影/家人19.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 2031583,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/5d8aca3863c9a3d0-640.webp",
+        "width": 640,
+        "bytes": 47584
+      },
+      {
+        "src": "assets/optimized/5d8aca3863c9a3d0-960.webp",
+        "width": 960,
+        "bytes": 87686
+      },
+      {
+        "src": "assets/optimized/5d8aca3863c9a3d0-1600.webp",
+        "width": 1600,
+        "bytes": 181956
+      }
+    ]
+  },
+  "家人合影/家人19-back.jpeg": {
+    "width": 1712,
+    "height": 1284,
+    "original_bytes": 414382,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/8397f7d661f3ca4f-640.webp",
+        "width": 640,
+        "bytes": 42930
+      },
+      {
+        "src": "assets/optimized/8397f7d661f3ca4f-960.webp",
+        "width": 960,
+        "bytes": 86218
+      },
+      {
+        "src": "assets/optimized/8397f7d661f3ca4f-1600.webp",
+        "width": 1600,
+        "bytes": 193952
+      }
+    ]
+  },
+  "家人合影/家人16.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2978463,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/da2fd40cbac224e1-640.webp",
+        "width": 640,
+        "bytes": 54132
+      },
+      {
+        "src": "assets/optimized/da2fd40cbac224e1-960.webp",
+        "width": 960,
+        "bytes": 100204
+      },
+      {
+        "src": "assets/optimized/da2fd40cbac224e1-1600.webp",
+        "width": 1600,
+        "bytes": 222980
+      }
+    ]
+  },
+  "家人合影/家人16-back.JPG": {
+    "width": 1706,
+    "height": 1279,
+    "original_bytes": 244636,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d1719b4297851ddc-640.webp",
+        "width": 640,
+        "bytes": 45130
+      },
+      {
+        "src": "assets/optimized/d1719b4297851ddc-960.webp",
+        "width": 960,
+        "bytes": 87178
+      },
+      {
+        "src": "assets/optimized/d1719b4297851ddc-1600.webp",
+        "width": 1600,
+        "bytes": 193710
+      }
+    ]
+  },
+  "家人合影/家人18.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2463111,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/174a269a01c53e57-640.webp",
+        "width": 640,
+        "bytes": 40960
+      },
+      {
+        "src": "assets/optimized/174a269a01c53e57-960.webp",
+        "width": 960,
+        "bytes": 70614
+      },
+      {
+        "src": "assets/optimized/174a269a01c53e57-1600.webp",
+        "width": 1600,
+        "bytes": 137734
+      }
+    ]
+  },
+  "家人合影/家人18-back.jpeg": {
+    "width": 1282,
+    "height": 962,
+    "original_bytes": 184447,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/636ddd1f5d02d683-640.webp",
+        "width": 640,
+        "bytes": 30746
+      },
+      {
+        "src": "assets/optimized/636ddd1f5d02d683-960.webp",
+        "width": 960,
+        "bytes": 51824
+      },
+      {
+        "src": "assets/optimized/636ddd1f5d02d683-1282.webp",
+        "width": 1282,
+        "bytes": 74574
+      }
+    ]
+  },
+  "家人合影/家人11.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1805768,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/860c1e59f59535e5-640.webp",
+        "width": 640,
+        "bytes": 26760
+      },
+      {
+        "src": "assets/optimized/860c1e59f59535e5-960.webp",
+        "width": 960,
+        "bytes": 46208
+      },
+      {
+        "src": "assets/optimized/860c1e59f59535e5-1600.webp",
+        "width": 1600,
+        "bytes": 88970
+      }
+    ]
+  },
+  "家人合影/家人11-back.jpeg": {
+    "width": 3732,
+    "height": 2799,
+    "original_bytes": 2207973,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/5c19d690617f3934-640.webp",
+        "width": 640,
+        "bytes": 48420
+      },
+      {
+        "src": "assets/optimized/5c19d690617f3934-960.webp",
+        "width": 960,
+        "bytes": 93750
+      },
+      {
+        "src": "assets/optimized/5c19d690617f3934-1600.webp",
+        "width": 1600,
+        "bytes": 219056
+      }
+    ]
+  },
+  "家人合影/家人20.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2622592,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/9027edab5a9253a3-640.webp",
+        "width": 640,
+        "bytes": 40810
+      },
+      {
+        "src": "assets/optimized/9027edab5a9253a3-960.webp",
+        "width": 960,
+        "bytes": 68228
+      },
+      {
+        "src": "assets/optimized/9027edab5a9253a3-1600.webp",
+        "width": 1600,
+        "bytes": 134396
+      }
+    ]
+  },
+  "家人合影/家人20-back.jpg": {
+    "width": 1184,
+    "height": 878,
+    "original_bytes": 233537,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/149f644334562110-640.webp",
+        "width": 640,
+        "bytes": 41264
+      },
+      {
+        "src": "assets/optimized/149f644334562110-960.webp",
+        "width": 960,
+        "bytes": 63644
+      },
+      {
+        "src": "assets/optimized/149f644334562110-1184.webp",
+        "width": 1184,
+        "bytes": 78778
+      }
+    ]
+  },
+  "家人合影/家人25.JPEG": {
+    "width": 4096,
+    "height": 3278,
+    "original_bytes": 1949492,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/77056047227db206-640.webp",
+        "width": 640,
+        "bytes": 27010
+      },
+      {
+        "src": "assets/optimized/77056047227db206-960.webp",
+        "width": 960,
+        "bytes": 50172
+      },
+      {
+        "src": "assets/optimized/77056047227db206-1600.webp",
+        "width": 1600,
+        "bytes": 102410
+      }
+    ]
+  },
+  "家人合影/家人25-back.JPG": {
+    "width": 1707,
+    "height": 1280,
+    "original_bytes": 1286382,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/04644bfbeaa5b152-640.webp",
+        "width": 640,
+        "bytes": 39272
+      },
+      {
+        "src": "assets/optimized/04644bfbeaa5b152-960.webp",
+        "width": 960,
+        "bytes": 74354
+      },
+      {
+        "src": "assets/optimized/04644bfbeaa5b152-1600.webp",
+        "width": 1600,
+        "bytes": 156250
+      }
+    ]
+  },
+  "家人合影/家人5.JPEG": {
+    "width": 4096,
+    "height": 2706,
+    "original_bytes": 2630948,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/595d65a8863b6fba-640.webp",
+        "width": 640,
+        "bytes": 35422
+      },
+      {
+        "src": "assets/optimized/595d65a8863b6fba-960.webp",
+        "width": 960,
+        "bytes": 60464
+      },
+      {
+        "src": "assets/optimized/595d65a8863b6fba-1600.webp",
+        "width": 1600,
+        "bytes": 121120
+      }
+    ]
+  },
+  "家人合影/家人5-back.jpg": {
+    "width": 1878,
+    "height": 1307,
+    "original_bytes": 743599,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fc9925f5d0408cf1-640.webp",
+        "width": 640,
+        "bytes": 49250
+      },
+      {
+        "src": "assets/optimized/fc9925f5d0408cf1-960.webp",
+        "width": 960,
+        "bytes": 83926
+      },
+      {
+        "src": "assets/optimized/fc9925f5d0408cf1-1600.webp",
+        "width": 1600,
+        "bytes": 151728
+      }
+    ]
+  },
+  "家人合影/家人21.JPEG": {
+    "width": 4096,
+    "height": 2588,
+    "original_bytes": 1847993,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/de15001a6093d7d2-640.webp",
+        "width": 640,
+        "bytes": 40194
+      },
+      {
+        "src": "assets/optimized/de15001a6093d7d2-960.webp",
+        "width": 960,
+        "bytes": 69912
+      },
+      {
+        "src": "assets/optimized/de15001a6093d7d2-1600.webp",
+        "width": 1600,
+        "bytes": 131334
+      }
+    ]
+  },
+  "家人合影/家人21-back.JPG": {
+    "width": 1707,
+    "height": 1280,
+    "original_bytes": 257711,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/abf5b0c9ce16bca9-640.webp",
+        "width": 640,
+        "bytes": 51380
+      },
+      {
+        "src": "assets/optimized/abf5b0c9ce16bca9-960.webp",
+        "width": 960,
+        "bytes": 94536
+      },
+      {
+        "src": "assets/optimized/abf5b0c9ce16bca9-1600.webp",
+        "width": 1600,
+        "bytes": 194510
+      }
+    ]
+  },
+  "二人照片/双人1.JPEG": {
+    "width": 3430,
+    "height": 4096,
+    "original_bytes": 2348231,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a5fa2453efb1e2cc-640.webp",
+        "width": 640,
+        "bytes": 63232
+      },
+      {
+        "src": "assets/optimized/a5fa2453efb1e2cc-960.webp",
+        "width": 960,
+        "bytes": 110432
+      },
+      {
+        "src": "assets/optimized/a5fa2453efb1e2cc-1600.webp",
+        "width": 1600,
+        "bytes": 215704
+      }
+    ]
+  },
+  "二人照片/双人1-back.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 427275,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fd16e5439ae8c5a0-640.webp",
+        "width": 640,
+        "bytes": 58034
+      },
+      {
+        "src": "assets/optimized/fd16e5439ae8c5a0-960.webp",
+        "width": 960,
+        "bytes": 121482
+      },
+      {
+        "src": "assets/optimized/fd16e5439ae8c5a0-1024.webp",
+        "width": 1024,
+        "bytes": 160190
+      }
+    ]
+  },
+  "二人照片/双人2.JPEG": {
+    "width": 3276,
+    "height": 4096,
+    "original_bytes": 2332574,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d9b87632dc89aba6-640.webp",
+        "width": 640,
+        "bytes": 86132
+      },
+      {
+        "src": "assets/optimized/d9b87632dc89aba6-960.webp",
+        "width": 960,
+        "bytes": 143476
+      },
+      {
+        "src": "assets/optimized/d9b87632dc89aba6-1600.webp",
+        "width": 1600,
+        "bytes": 270378
+      }
+    ]
+  },
+  "二人照片/双人2-back.jpg": {
+    "width": 848,
+    "height": 1131,
+    "original_bytes": 453286,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/7d2091e06a9dcaf0-640.webp",
+        "width": 640,
+        "bytes": 147994
+      },
+      {
+        "src": "assets/optimized/7d2091e06a9dcaf0-848.webp",
+        "width": 848,
+        "bytes": 203608
+      }
+    ]
+  },
+  "二人照片/双人3.JPEG": {
+    "width": 3278,
+    "height": 4096,
+    "original_bytes": 1703361,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/6363ffbc69841a9e-640.webp",
+        "width": 640,
+        "bytes": 37680
+      },
+      {
+        "src": "assets/optimized/6363ffbc69841a9e-960.webp",
+        "width": 960,
+        "bytes": 60502
+      },
+      {
+        "src": "assets/optimized/6363ffbc69841a9e-1600.webp",
+        "width": 1600,
+        "bytes": 112154
+      }
+    ]
+  },
+  "二人照片/双人3-back.JPG": {
+    "width": 860,
+    "height": 1147,
+    "original_bytes": 1158395,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b754c6a4ffe40a7d-640.webp",
+        "width": 640,
+        "bytes": 62428
+      },
+      {
+        "src": "assets/optimized/b754c6a4ffe40a7d-860.webp",
+        "width": 860,
+        "bytes": 119976
+      }
+    ]
+  },
+  "二人照片/双人4.JPEG": {
+    "width": 3278,
+    "height": 4096,
+    "original_bytes": 2195735,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/cd6be10fcc67696c-640.webp",
+        "width": 640,
+        "bytes": 58866
+      },
+      {
+        "src": "assets/optimized/cd6be10fcc67696c-960.webp",
+        "width": 960,
+        "bytes": 95832
+      },
+      {
+        "src": "assets/optimized/cd6be10fcc67696c-1600.webp",
+        "width": 1600,
+        "bytes": 172868
+      }
+    ]
+  },
+  "二人照片/双人4-back.JPG": {
+    "width": 955,
+    "height": 1274,
+    "original_bytes": 1521299,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/59b0ea19821466a0-640.webp",
+        "width": 640,
+        "bytes": 100572
+      },
+      {
+        "src": "assets/optimized/59b0ea19821466a0-955.webp",
+        "width": 955,
+        "bytes": 189092
+      }
+    ]
+  },
+  "二人照片/双人5.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 1972151,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b55db27b7f14fd18-640.webp",
+        "width": 640,
+        "bytes": 66308
+      },
+      {
+        "src": "assets/optimized/b55db27b7f14fd18-960.webp",
+        "width": 960,
+        "bytes": 108020
+      },
+      {
+        "src": "assets/optimized/b55db27b7f14fd18-1600.webp",
+        "width": 1600,
+        "bytes": 213680
+      }
+    ]
+  },
+  "二人照片/双人5-back.jpg": {
+    "width": 692,
+    "height": 923,
+    "original_bytes": 271883,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/5e18a4f2df24357f-640.webp",
+        "width": 640,
+        "bytes": 108024
+      },
+      {
+        "src": "assets/optimized/5e18a4f2df24357f-692.webp",
+        "width": 692,
+        "bytes": 119792
+      }
+    ]
+  },
+  "二人照片/双人6.JPEG": {
+    "width": 3381,
+    "height": 4096,
+    "original_bytes": 3035853,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b4a06b9a8c6a8fb1-640.webp",
+        "width": 640,
+        "bytes": 62714
+      },
+      {
+        "src": "assets/optimized/b4a06b9a8c6a8fb1-960.webp",
+        "width": 960,
+        "bytes": 114432
+      },
+      {
+        "src": "assets/optimized/b4a06b9a8c6a8fb1-1600.webp",
+        "width": 1600,
+        "bytes": 247662
+      }
+    ]
+  },
+  "二人照片/双人6-back.jpg": {
+    "width": 900,
+    "height": 900,
+    "original_bytes": 222478,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/559573fada7424a8-640.webp",
+        "width": 640,
+        "bytes": 50608
+      },
+      {
+        "src": "assets/optimized/559573fada7424a8-900.webp",
+        "width": 900,
+        "bytes": 74492
+      }
+    ]
+  },
+  "二人照片/双人7.JPEG": {
+    "width": 3430,
+    "height": 4096,
+    "original_bytes": 1924282,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f3b28ef5df5bf14f-640.webp",
+        "width": 640,
+        "bytes": 42840
+      },
+      {
+        "src": "assets/optimized/f3b28ef5df5bf14f-960.webp",
+        "width": 960,
+        "bytes": 69148
+      },
+      {
+        "src": "assets/optimized/f3b28ef5df5bf14f-1600.webp",
+        "width": 1600,
+        "bytes": 122378
+      }
+    ]
+  },
+  "二人照片/双人7-back.JPG": {
+    "width": 1074,
+    "height": 899,
+    "original_bytes": 1117113,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/3aca7c5ee81bde48-640.webp",
+        "width": 640,
+        "bytes": 55528
+      },
+      {
+        "src": "assets/optimized/3aca7c5ee81bde48-960.webp",
+        "width": 960,
+        "bytes": 101342
+      },
+      {
+        "src": "assets/optimized/3aca7c5ee81bde48-1074.webp",
+        "width": 1074,
+        "bytes": 125218
+      }
+    ]
+  },
+  "二人照片/双人10.JPEG": {
+    "width": 3381,
+    "height": 4096,
+    "original_bytes": 3699330,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/58794cf925bf70c3-640.webp",
+        "width": 640,
+        "bytes": 90374
+      },
+      {
+        "src": "assets/optimized/58794cf925bf70c3-960.webp",
+        "width": 960,
+        "bytes": 163928
+      },
+      {
+        "src": "assets/optimized/58794cf925bf70c3-1600.webp",
+        "width": 1600,
+        "bytes": 347546
+      }
+    ]
+  },
+  "二人照片/双人10-back.JPG": {
+    "width": 884,
+    "height": 1024,
+    "original_bytes": 1161906,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/771d6b5f8bfacaef-640.webp",
+        "width": 640,
+        "bytes": 71840
+      },
+      {
+        "src": "assets/optimized/771d6b5f8bfacaef-884.webp",
+        "width": 884,
+        "bytes": 107822
+      }
+    ]
+  },
+  "二人照片/奶奶3.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 3158349,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/97f663d3530a90cb-640.webp",
+        "width": 640,
+        "bytes": 112510
+      },
+      {
+        "src": "assets/optimized/97f663d3530a90cb-960.webp",
+        "width": 960,
+        "bytes": 219144
+      },
+      {
+        "src": "assets/optimized/97f663d3530a90cb-1600.webp",
+        "width": 1600,
+        "bytes": 483128
+      }
+    ]
+  },
+  "二人照片/奶奶3-back.jpg": {
+    "width": 679,
+    "height": 905,
+    "original_bytes": 221790,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fc7d018e4008c0a3-640.webp",
+        "width": 640,
+        "bytes": 79220
+      },
+      {
+        "src": "assets/optimized/fc7d018e4008c0a3-679.webp",
+        "width": 679,
+        "bytes": 86124
+      }
+    ]
+  },
+  "二人照片/奶奶4.JPEG": {
+    "width": 3278,
+    "height": 4096,
+    "original_bytes": 2544657,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/737ba90c6a00a6c9-640.webp",
+        "width": 640,
+        "bytes": 91738
+      },
+      {
+        "src": "assets/optimized/737ba90c6a00a6c9-960.webp",
+        "width": 960,
+        "bytes": 149158
+      },
+      {
+        "src": "assets/optimized/737ba90c6a00a6c9-1600.webp",
+        "width": 1600,
+        "bytes": 269018
+      }
+    ]
+  },
+  "二人照片/奶奶4-back.JPG": {
+    "width": 905,
+    "height": 1378,
+    "original_bytes": 2134631,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/87bb935c5771d261-640.webp",
+        "width": 640,
+        "bytes": 199590
+      },
+      {
+        "src": "assets/optimized/87bb935c5771d261-905.webp",
+        "width": 905,
+        "bytes": 350772
+      }
+    ]
+  },
+  "二人照片/奶奶6.JPEG": {
+    "width": 3381,
+    "height": 4096,
+    "original_bytes": 2400993,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b976d66272ecdbcc-640.webp",
+        "width": 640,
+        "bytes": 42740
+      },
+      {
+        "src": "assets/optimized/b976d66272ecdbcc-960.webp",
+        "width": 960,
+        "bytes": 79162
+      },
+      {
+        "src": "assets/optimized/b976d66272ecdbcc-1600.webp",
+        "width": 1600,
+        "bytes": 169704
+      }
+    ]
+  },
+  "二人照片/奶奶6-back.JPG": {
+    "width": 1358,
+    "height": 1358,
+    "original_bytes": 248383,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/8ec775ed73e46fe1-640.webp",
+        "width": 640,
+        "bytes": 18216
+      },
+      {
+        "src": "assets/optimized/8ec775ed73e46fe1-960.webp",
+        "width": 960,
+        "bytes": 30106
+      },
+      {
+        "src": "assets/optimized/8ec775ed73e46fe1-1358.webp",
+        "width": 1358,
+        "bytes": 48346
+      }
+    ]
+  },
+  "二人照片/奶奶7.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 2470180,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f23badb2a3a3421a-640.webp",
+        "width": 640,
+        "bytes": 94014
+      },
+      {
+        "src": "assets/optimized/f23badb2a3a3421a-960.webp",
+        "width": 960,
+        "bytes": 156842
+      },
+      {
+        "src": "assets/optimized/f23badb2a3a3421a-1600.webp",
+        "width": 1600,
+        "bytes": 297050
+      }
+    ]
+  },
+  "二人照片/奶奶7-back.JPG": {
+    "width": 696,
+    "height": 1047,
+    "original_bytes": 907830,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/6d1d4a1e11aae179-640.webp",
+        "width": 640,
+        "bytes": 115722
+      },
+      {
+        "src": "assets/optimized/6d1d4a1e11aae179-696.webp",
+        "width": 696,
+        "bytes": 129548
+      }
+    ]
+  },
+  "二人照片/奶奶9.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 1948899,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/05a9fc3cf2ba0008-640.webp",
+        "width": 640,
+        "bytes": 60472
+      },
+      {
+        "src": "assets/optimized/05a9fc3cf2ba0008-960.webp",
+        "width": 960,
+        "bytes": 102666
+      },
+      {
+        "src": "assets/optimized/05a9fc3cf2ba0008-1600.webp",
+        "width": 1600,
+        "bytes": 218524
+      }
+    ]
+  },
+  "二人照片/奶奶9-back.JPG": {
+    "width": 674,
+    "height": 1024,
+    "original_bytes": 830894,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/ef939cf46a5aa2e9-640.webp",
+        "width": 640,
+        "bytes": 69104
+      },
+      {
+        "src": "assets/optimized/ef939cf46a5aa2e9-674.webp",
+        "width": 674,
+        "bytes": 76880
+      }
+    ]
+  },
+  "二人照片/奶奶11.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 1870691,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/4d86b312bd5a165e-640.webp",
+        "width": 640,
+        "bytes": 58296
+      },
+      {
+        "src": "assets/optimized/4d86b312bd5a165e-960.webp",
+        "width": 960,
+        "bytes": 96174
+      },
+      {
+        "src": "assets/optimized/4d86b312bd5a165e-1600.webp",
+        "width": 1600,
+        "bytes": 191016
+      }
+    ]
+  },
+  "二人照片/奶奶11-back.JPG": {
+    "width": 730,
+    "height": 1024,
+    "original_bytes": 1042122,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/cbc47cfb886edf0d-640.webp",
+        "width": 640,
+        "bytes": 95712
+      },
+      {
+        "src": "assets/optimized/cbc47cfb886edf0d-730.webp",
+        "width": 730,
+        "bytes": 111194
+      }
+    ]
+  },
+  "家人合影/家人2.JPEG": {
+    "width": 3381,
+    "height": 4096,
+    "original_bytes": 2967282,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f0f9984e2938cac3-640.webp",
+        "width": 640,
+        "bytes": 59102
+      },
+      {
+        "src": "assets/optimized/f0f9984e2938cac3-960.webp",
+        "width": 960,
+        "bytes": 106858
+      },
+      {
+        "src": "assets/optimized/f0f9984e2938cac3-1600.webp",
+        "width": 1600,
+        "bytes": 242830
+      }
+    ]
+  },
+  "家人合影/家人2-back.JPG": {
+    "width": 1071,
+    "height": 966,
+    "original_bytes": 1002029,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/cbb6806d197e2a4a-640.webp",
+        "width": 640,
+        "bytes": 50520
+      },
+      {
+        "src": "assets/optimized/cbb6806d197e2a4a-960.webp",
+        "width": 960,
+        "bytes": 85212
+      },
+      {
+        "src": "assets/optimized/cbb6806d197e2a4a-1071.webp",
+        "width": 1071,
+        "bytes": 95490
+      }
+    ]
+  },
+  "家人合影/家人26.JPEG": {
+    "width": 3430,
+    "height": 4096,
+    "original_bytes": 1744556,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f99450afe9269ee8-640.webp",
+        "width": 640,
+        "bytes": 32516
+      },
+      {
+        "src": "assets/optimized/f99450afe9269ee8-960.webp",
+        "width": 960,
+        "bytes": 53906
+      },
+      {
+        "src": "assets/optimized/f99450afe9269ee8-1600.webp",
+        "width": 1600,
+        "bytes": 105030
+      }
+    ]
+  },
+  "家人合影/家人26-back.jpg": {
+    "width": 823,
+    "height": 1030,
+    "original_bytes": 208011,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/0a3c7c51210e3bd6-640.webp",
+        "width": 640,
+        "bytes": 46660
+      },
+      {
+        "src": "assets/optimized/0a3c7c51210e3bd6-823.webp",
+        "width": 823,
+        "bytes": 67912
+      }
+    ]
+  },
+  "家人合影/家人4.JPEG": {
+    "width": 2588,
+    "height": 4096,
+    "original_bytes": 1810907,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/746cd92f7e073225-640.webp",
+        "width": 640,
+        "bytes": 82666
+      },
+      {
+        "src": "assets/optimized/746cd92f7e073225-960.webp",
+        "width": 960,
+        "bytes": 133124
+      },
+      {
+        "src": "assets/optimized/746cd92f7e073225-1600.webp",
+        "width": 1600,
+        "bytes": 248516
+      }
+    ]
+  },
+  "家人合影/家人4-back.JPG": {
+    "width": 1080,
+    "height": 1889,
+    "original_bytes": 2376702,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d2180f9edab16340-640.webp",
+        "width": 640,
+        "bytes": 99644
+      },
+      {
+        "src": "assets/optimized/d2180f9edab16340-960.webp",
+        "width": 960,
+        "bytes": 160966
+      },
+      {
+        "src": "assets/optimized/d2180f9edab16340-1080.webp",
+        "width": 1080,
+        "bytes": 194738
+      }
+    ]
+  },
+  "家人合影/家人6.JPEG": {
+    "width": 2588,
+    "height": 4096,
+    "original_bytes": 2320799,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/dda8f8762d85b9ed-640.webp",
+        "width": 640,
+        "bytes": 93034
+      },
+      {
+        "src": "assets/optimized/dda8f8762d85b9ed-960.webp",
+        "width": 960,
+        "bytes": 155462
+      },
+      {
+        "src": "assets/optimized/dda8f8762d85b9ed-1600.webp",
+        "width": 1600,
+        "bytes": 285180
+      }
+    ]
+  },
+  "家人合影/家人6-back.JPG": {
+    "width": 1280,
+    "height": 1706,
+    "original_bytes": 485233,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a52380701fdfce44-640.webp",
+        "width": 640,
+        "bytes": 136480
+      },
+      {
+        "src": "assets/optimized/a52380701fdfce44-960.webp",
+        "width": 960,
+        "bytes": 249218
+      },
+      {
+        "src": "assets/optimized/a52380701fdfce44-1280.webp",
+        "width": 1280,
+        "bytes": 364262
+      }
+    ]
+  },
+  "家人合影/家人7.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 3186173,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/3cfe9cfa058159e2-640.webp",
+        "width": 640,
+        "bytes": 103026
+      },
+      {
+        "src": "assets/optimized/3cfe9cfa058159e2-960.webp",
+        "width": 960,
+        "bytes": 200210
+      },
+      {
+        "src": "assets/optimized/3cfe9cfa058159e2-1600.webp",
+        "width": 1600,
+        "bytes": 438820
+      }
+    ]
+  },
+  "家人合影/家人7-back.jpeg": {
+    "width": 2501,
+    "height": 3335,
+    "original_bytes": 1750541,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fda4c5ca528ce154-640.webp",
+        "width": 640,
+        "bytes": 95402
+      },
+      {
+        "src": "assets/optimized/fda4c5ca528ce154-960.webp",
+        "width": 960,
+        "bytes": 187320
+      },
+      {
+        "src": "assets/optimized/fda4c5ca528ce154-1600.webp",
+        "width": 1600,
+        "bytes": 396276
+      }
+    ]
+  },
+  "家人合影/家人10.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 3163420,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/ef9dbd0839d92644-640.webp",
+        "width": 640,
+        "bytes": 115732
+      },
+      {
+        "src": "assets/optimized/ef9dbd0839d92644-960.webp",
+        "width": 960,
+        "bytes": 218090
+      },
+      {
+        "src": "assets/optimized/ef9dbd0839d92644-1600.webp",
+        "width": 1600,
+        "bytes": 445714
+      }
+    ]
+  },
+  "家人合影/家人10-back.jpeg": {
+    "width": 2286,
+    "height": 3049,
+    "original_bytes": 1670299,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/4e60dcd8357573f1-640.webp",
+        "width": 640,
+        "bytes": 100380
+      },
+      {
+        "src": "assets/optimized/4e60dcd8357573f1-960.webp",
+        "width": 960,
+        "bytes": 185512
+      },
+      {
+        "src": "assets/optimized/4e60dcd8357573f1-1600.webp",
+        "width": 1600,
+        "bytes": 386236
+      }
+    ]
+  },
+  "家人合影/家人9.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 2501729,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/ccad19f190b16610-640.webp",
+        "width": 640,
+        "bytes": 83966
+      },
+      {
+        "src": "assets/optimized/ccad19f190b16610-960.webp",
+        "width": 960,
+        "bytes": 140316
+      },
+      {
+        "src": "assets/optimized/ccad19f190b16610-1600.webp",
+        "width": 1600,
+        "bytes": 266828
+      }
+    ]
+  },
+  "家人合影/家人9-back.JPG": {
+    "width": 600,
+    "height": 800,
+    "original_bytes": 184723,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f0b5ae7978fb8e1a-600.webp",
+        "width": 600,
+        "bytes": 104270
+      }
+    ]
+  },
+  "家人合影/家人12.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 2780057,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/753038c01381ad6f-640.webp",
+        "width": 640,
+        "bytes": 93322
+      },
+      {
+        "src": "assets/optimized/753038c01381ad6f-960.webp",
+        "width": 960,
+        "bytes": 156416
+      },
+      {
+        "src": "assets/optimized/753038c01381ad6f-1600.webp",
+        "width": 1600,
+        "bytes": 302948
+      }
+    ]
+  },
+  "家人合影/家人12-back.jpeg": {
+    "width": 2744,
+    "height": 3659,
+    "original_bytes": 1579239,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d9f4fa53c8f6da5f-640.webp",
+        "width": 640,
+        "bytes": 98866
+      },
+      {
+        "src": "assets/optimized/d9f4fa53c8f6da5f-960.webp",
+        "width": 960,
+        "bytes": 161090
+      },
+      {
+        "src": "assets/optimized/d9f4fa53c8f6da5f-1600.webp",
+        "width": 1600,
+        "bytes": 289618
+      }
+    ]
+  },
+  "家人合影/家人24.JPEG": {
+    "width": 2588,
+    "height": 4096,
+    "original_bytes": 2197022,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d80c72966e009462-640.webp",
+        "width": 640,
+        "bytes": 52128
+      },
+      {
+        "src": "assets/optimized/d80c72966e009462-960.webp",
+        "width": 960,
+        "bytes": 94428
+      },
+      {
+        "src": "assets/optimized/d80c72966e009462-1600.webp",
+        "width": 1600,
+        "bytes": 198806
+      }
+    ]
+  },
+  "家人合影/家人24-back.jpeg": {
+    "width": 2316,
+    "height": 3088,
+    "original_bytes": 1235031,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/75def81ce2d05433-640.webp",
+        "width": 640,
+        "bytes": 47334
+      },
+      {
+        "src": "assets/optimized/75def81ce2d05433-960.webp",
+        "width": 960,
+        "bytes": 98352
+      },
+      {
+        "src": "assets/optimized/75def81ce2d05433-1600.webp",
+        "width": 1600,
+        "bytes": 245482
+      }
+    ]
+  },
+  "家人合影/家人14.JPEG": {
+    "width": 2588,
+    "height": 4096,
+    "original_bytes": 2210219,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/18d055cb1627030c-640.webp",
+        "width": 640,
+        "bytes": 77958
+      },
+      {
+        "src": "assets/optimized/18d055cb1627030c-960.webp",
+        "width": 960,
+        "bytes": 136924
+      },
+      {
+        "src": "assets/optimized/18d055cb1627030c-1600.webp",
+        "width": 1600,
+        "bytes": 260978
+      }
+    ]
+  },
+  "家人合影/家人14-back.JPG": {
+    "width": 1280,
+    "height": 1707,
+    "original_bytes": 279299,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/21e473d280937875-640.webp",
+        "width": 640,
+        "bytes": 92320
+      },
+      {
+        "src": "assets/optimized/21e473d280937875-960.webp",
+        "width": 960,
+        "bytes": 163752
+      },
+      {
+        "src": "assets/optimized/21e473d280937875-1280.webp",
+        "width": 1280,
+        "bytes": 235952
+      }
+    ]
+  },
+  "家人合影/家人15.JPEG": {
+    "width": 3381,
+    "height": 4096,
+    "original_bytes": 2990359,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/335849f003006ae2-640.webp",
+        "width": 640,
+        "bytes": 73336
+      },
+      {
+        "src": "assets/optimized/335849f003006ae2-960.webp",
+        "width": 960,
+        "bytes": 131788
+      },
+      {
+        "src": "assets/optimized/335849f003006ae2-1600.webp",
+        "width": 1600,
+        "bytes": 272362
+      }
+    ]
+  },
+  "家人合影/家人15-back.JPG": {
+    "width": 1702,
+    "height": 1276,
+    "original_bytes": 276243,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/85aeb1a0a6afa0f1-640.webp",
+        "width": 640,
+        "bytes": 53086
+      },
+      {
+        "src": "assets/optimized/85aeb1a0a6afa0f1-960.webp",
+        "width": 960,
+        "bytes": 100052
+      },
+      {
+        "src": "assets/optimized/85aeb1a0a6afa0f1-1600.webp",
+        "width": 1600,
+        "bytes": 212798
+      }
+    ]
+  },
+  "家人合影/家人8.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 3216607,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/c8f3f2dcce3ade1a-640.webp",
+        "width": 640,
+        "bytes": 89302
+      },
+      {
+        "src": "assets/optimized/c8f3f2dcce3ade1a-960.webp",
+        "width": 960,
+        "bytes": 161322
+      },
+      {
+        "src": "assets/optimized/c8f3f2dcce3ade1a-1600.webp",
+        "width": 1600,
+        "bytes": 368378
+      }
+    ]
+  },
+  "家人合影/家人8-back.jpeg": {
+    "width": 2675,
+    "height": 3567,
+    "original_bytes": 1544515,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/b31780043d2c9c91-640.webp",
+        "width": 640,
+        "bytes": 83872
+      },
+      {
+        "src": "assets/optimized/b31780043d2c9c91-960.webp",
+        "width": 960,
+        "bytes": 145616
+      },
+      {
+        "src": "assets/optimized/b31780043d2c9c91-1600.webp",
+        "width": 1600,
+        "bytes": 282866
+      }
+    ]
+  },
+  "家人合影/家人23.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 2710052,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fc997bb9cd97c810-640.webp",
+        "width": 640,
+        "bytes": 59272
+      },
+      {
+        "src": "assets/optimized/fc997bb9cd97c810-960.webp",
+        "width": 960,
+        "bytes": 99772
+      },
+      {
+        "src": "assets/optimized/fc997bb9cd97c810-1600.webp",
+        "width": 1600,
+        "bytes": 222082
+      }
+    ]
+  },
+  "家人合影/家人23-back.jpeg": {
+    "width": 2803,
+    "height": 3737,
+    "original_bytes": 1791087,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/50fd5dd1df06e17c-640.webp",
+        "width": 640,
+        "bytes": 78290
+      },
+      {
+        "src": "assets/optimized/50fd5dd1df06e17c-960.webp",
+        "width": 960,
+        "bytes": 131752
+      },
+      {
+        "src": "assets/optimized/50fd5dd1df06e17c-1600.webp",
+        "width": 1600,
+        "bytes": 278720
+      }
+    ]
+  },
+  "家人合影/家人17.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 2646603,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/2fac5a5ddda7c3ab-640.webp",
+        "width": 640,
+        "bytes": 66266
+      },
+      {
+        "src": "assets/optimized/2fac5a5ddda7c3ab-960.webp",
+        "width": 960,
+        "bytes": 140950
+      },
+      {
+        "src": "assets/optimized/2fac5a5ddda7c3ab-1600.webp",
+        "width": 1600,
+        "bytes": 334656
+      }
+    ]
+  },
+  "家人合影/家人17-back.JPG": {
+    "width": 1279,
+    "height": 1706,
+    "original_bytes": 183056,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a838381e169add03-640.webp",
+        "width": 640,
+        "bytes": 48340
+      },
+      {
+        "src": "assets/optimized/a838381e169add03-960.webp",
+        "width": 960,
+        "bytes": 84582
+      },
+      {
+        "src": "assets/optimized/a838381e169add03-1279.webp",
+        "width": 1279,
+        "bytes": 127242
+      }
+    ]
+  },
+  "家人合影/家人3.JPEG": {
+    "width": 3072,
+    "height": 4096,
+    "original_bytes": 1644527,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/d50007f3eb3dba10-640.webp",
+        "width": 640,
+        "bytes": 52960
+      },
+      {
+        "src": "assets/optimized/d50007f3eb3dba10-960.webp",
+        "width": 960,
+        "bytes": 84132
+      },
+      {
+        "src": "assets/optimized/d50007f3eb3dba10-1600.webp",
+        "width": 1600,
+        "bytes": 163010
+      }
+    ]
+  },
+  "家人合影/家人3-back.JPG": {
+    "width": 1009,
+    "height": 1299,
+    "original_bytes": 1381490,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/837312f7a57804bb-640.webp",
+        "width": 640,
+        "bytes": 61236
+      },
+      {
+        "src": "assets/optimized/837312f7a57804bb-960.webp",
+        "width": 960,
+        "bytes": 99434
+      },
+      {
+        "src": "assets/optimized/837312f7a57804bb-1009.webp",
+        "width": 1009,
+        "bytes": 106914
+      }
+    ]
+  },
+  "家人合影/家人28.JPG": {
+    "width": 2688,
+    "height": 4032,
+    "original_bytes": 1936621,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/1b4e06869e8f729d-640.webp",
+        "width": 640,
+        "bytes": 78258
+      },
+      {
+        "src": "assets/optimized/1b4e06869e8f729d-960.webp",
+        "width": 960,
+        "bytes": 128952
+      },
+      {
+        "src": "assets/optimized/1b4e06869e8f729d-1600.webp",
+        "width": 1600,
+        "bytes": 247464
+      }
+    ]
+  },
+  "家人合影/家人28-back.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "original_bytes": 3855188,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/613bf68ad7274ab8-640.webp",
+        "width": 640,
+        "bytes": 207402
+      },
+      {
+        "src": "assets/optimized/613bf68ad7274ab8-960.webp",
+        "width": 960,
+        "bytes": 428290
+      },
+      {
+        "src": "assets/optimized/613bf68ad7274ab8-1600.webp",
+        "width": 1600,
+        "bytes": 893246
+      }
+    ]
+  },
+  "家人合影/家人27.JPEG": {
+    "width": 2706,
+    "height": 4096,
+    "original_bytes": 4020338,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/63c280ee6ab49fee-640.webp",
+        "width": 640,
+        "bytes": 144498
+      },
+      {
+        "src": "assets/optimized/63c280ee6ab49fee-960.webp",
+        "width": 960,
+        "bytes": 300960
+      },
+      {
+        "src": "assets/optimized/63c280ee6ab49fee-1600.webp",
+        "width": 1600,
+        "bytes": 653822
+      }
+    ]
+  },
+  "家人合影/家人27-back.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "original_bytes": 7017817,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/f12b4081d1b858bb-640.webp",
+        "width": 640,
+        "bytes": 136908
+      },
+      {
+        "src": "assets/optimized/f12b4081d1b858bb-960.webp",
+        "width": 960,
+        "bytes": 261114
+      },
+      {
+        "src": "assets/optimized/f12b4081d1b858bb-1600.webp",
+        "width": 1600,
+        "bytes": 562828
+      }
+    ]
+  },
+  "家人合影/家人29.JPEG": {
+    "width": 3278,
+    "height": 4096,
+    "original_bytes": 2545728,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/8d36e9edc3d68384-640.webp",
+        "width": 640,
+        "bytes": 94852
+      },
+      {
+        "src": "assets/optimized/8d36e9edc3d68384-960.webp",
+        "width": 960,
+        "bytes": 160904
+      },
+      {
+        "src": "assets/optimized/8d36e9edc3d68384-1600.webp",
+        "width": 1600,
+        "bytes": 296752
+      }
+    ]
+  },
+  "家人合影/家人29-back.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "original_bytes": 10587116,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/afd8f008bf7f3fe1-640.webp",
+        "width": 640,
+        "bytes": 165766
+      },
+      {
+        "src": "assets/optimized/afd8f008bf7f3fe1-960.webp",
+        "width": 960,
+        "bytes": 311514
+      },
+      {
+        "src": "assets/optimized/afd8f008bf7f3fe1-1600.webp",
+        "width": 1600,
+        "bytes": 607298
+      }
+    ]
+  },
+  "家人合影/家人30.JPG": {
+    "width": 2581,
+    "height": 3872,
+    "original_bytes": 1670103,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/a1b75df3ea6b5768-640.webp",
+        "width": 640,
+        "bytes": 44732
+      },
+      {
+        "src": "assets/optimized/a1b75df3ea6b5768-960.webp",
+        "width": 960,
+        "bytes": 82134
+      },
+      {
+        "src": "assets/optimized/a1b75df3ea6b5768-1600.webp",
+        "width": 1600,
+        "bytes": 177454
+      }
+    ]
+  },
+  "家人合影/家人30-back.jpeg": {
+    "width": 2581,
+    "height": 3441,
+    "original_bytes": 1253357,
+    "photo": true,
+    "variants": [
+      {
+        "src": "assets/optimized/fcf27045145353e6-640.webp",
+        "width": 640,
+        "bytes": 84054
+      },
+      {
+        "src": "assets/optimized/fcf27045145353e6-960.webp",
+        "width": 960,
+        "bytes": 144166
+      },
+      {
+        "src": "assets/optimized/fcf27045145353e6-1600.webp",
+        "width": 1600,
+        "bytes": 264094
+      }
+    ]
+  }
+}

@@ -15,7 +15,7 @@
 @media(min-width:641px){}
 
 /* Embedded clerical-script face for offline text and future edits. */
-@font-face{font-family:"Baosen Lishu";src:url("assets/libian-sc.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:"Baosen Lishu";src:url("assets/optimized/libian-page.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 :root{--font:"Baosen Lishu","Libian SC","Libian TC","LiSu",serif;--font-display:var(--font);--font-label:var(--font)}
 body{font-size:18px;line-height:1.9}
 button,input,textarea,select{font-family:var(--font)}

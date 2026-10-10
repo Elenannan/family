@@ -21,7 +21,37 @@
       back.setAttribute('aria-hidden', String(!flipped));
     }
     showBack(false);
-    button.addEventListener('click', () => showBack(button.getAttribute('aria-pressed') !== 'true'));
+    let loading = false;
+    button.addEventListener('click', async () => {
+      if (loading) return;
+      if (button.getAttribute('aria-pressed') === 'true') {
+        showBack(false);
+        return;
+      }
+      const img = back.querySelector('img');
+      loading = true;
+      button.setAttribute('aria-busy', 'true');
+      try {
+        if (!img.getAttribute('src')) {
+          // No back-face request until this photo is explicitly flipped.
+          img.loading = 'eager';
+          img.srcset = img.dataset.srcset;
+          img.src = img.dataset.src;
+        }
+        await img.decode();
+        button.removeAttribute('title');
+        showBack(true);
+      } catch (_) {
+        // Keep the front visible and permit another click to retry.
+        img.removeAttribute('srcset');
+        img.removeAttribute('src');
+        button.title = '原图暂未加载成功，请再点一次重试';
+        button.setAttribute('aria-label', button.dataset.photoName + '：原图暂未加载成功，请再点一次重试');
+      } finally {
+        loading = false;
+        button.removeAttribute('aria-busy');
+      }
+    });
   });
   document.getElementById('file-location')?.addEventListener('click', () => {
     let path = location.pathname;
