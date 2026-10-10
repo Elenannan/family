@@ -349,7 +349,7 @@ button,input,textarea,select{font-family:var(--font)}
  :root:not([data-theme=dark]) .art-masthead .masthead-art img.masthead-art-day{height:100%;object-fit:cover;object-position:66% 50%}
  :root:not([data-theme=dark]) .masthead-brand{
   --day-title-size:clamp(21px,5.5cqw,28px);
-  left:40%;top:43%;bottom:auto;
+  left:37%;top:43%;bottom:auto;
   transform:translateX(-50%);transform-origin:center top;
  }
  :root:not([data-theme=dark]) .birthday-day-groups{gap:clamp(5px,1.3cqw,7px)}
@@ -358,7 +358,7 @@ button,input,textarea,select{font-family:var(--font)}
  :root[data-theme=dark] .art-masthead .masthead-art img.masthead-art-night{position:relative;left:-14%;width:185.8%;max-width:none;height:100%;object-fit:cover;object-position:left center}
  :root[data-theme=dark] .masthead-brand{
   --blessing-size:clamp(21px,5.5cqw,28px);
-  left:57%;top:48%;bottom:auto;
+  left:61%;top:44%;bottom:auto;
   transform:translate(-50%,-50%);transform-origin:center center;
  }
  :root[data-theme=dark] .birthday-columns{gap:clamp(5px,1.3cqw,7px)}
