@@ -7,6 +7,12 @@
       srcset: img.getAttribute('srcset') || img.dataset.srcset,
       retries: 0, failed: false, waiters: []
     };
+    // Use the smallest existing web-sized copy, never the full-size source file.
+    const candidates = (state.srcset || '').split(',').map(candidate => {
+      const match = candidate.trim().match(/^(\S+)\s+(\d+)w$/);
+      return match ? { src: match[1], width: Number(match[2]) } : null;
+    }).filter(Boolean).sort((a, b) => a.width - b.width);
+    state.fallback = candidates.length ? candidates[0].src : null;
     imageStates.set(img, state);
     function finish(error) {
       state.failed = Boolean(error);
@@ -20,12 +26,12 @@
         state.retries = 1;
         const url = new URL(current, document.baseURI);
         url.searchParams.set('image_retry', '1');
+        img.removeAttribute('srcset');
         img.src = url.href;
-        img.removeAttribute('srcset');
-      } else if (state.retries === 1 && img.dataset.originalSrc) {
+      } else if (state.retries === 1 && state.fallback) {
         state.retries = 2;
-        img.src = img.dataset.originalSrc;
         img.removeAttribute('srcset');
+        img.src = state.fallback;
       } else {
         finish(new Error('Image could not be loaded'));
       }

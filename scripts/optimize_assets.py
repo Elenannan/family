@@ -81,7 +81,7 @@ def replace(m):
     return '<img ' + ' '.join(f'{k}="{escape(v, quote=True)}"' for k,v in attrs.items()) + '>'
 html = re.sub(r'<img\b[^>]*>', replace, html)
 html = html.replace('baosen.css?v=phone-smaller-105', 'baosen.css?v=optimized-assets-106')
-html = re.sub(r'couple-photos\.js\?v=[^"\s]+', 'couple-photos.js?v=compatible-images-7', html)
+html = re.sub(r'couple-photos\.js\?v=[^"\s]+', 'couple-photos.js?v=small-image-fallback-8', html)
 html = html.replace('couple-photos.css?v=phone-natural-ratio-10', 'couple-photos.css?v=on-demand-11')
 font_link = '<link rel="preload" href="assets/optimized/libian-page.woff2" as="font" type="font/woff2" crossorigin>'
 if font_link not in html: html = html.replace('</title>', '</title>'+font_link, 1)
