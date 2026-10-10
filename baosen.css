@@ -369,11 +369,11 @@ button,input,textarea,select{font-family:var(--font)}
  .art-masthead .theme-option{font-size:12px;padding:6px 9px}
 }
 
-/* Four longer columns are exclusive to the phone night view. */
+/* Five columns and an inline signature are exclusive to the phone night view. */
 .birthday-mobile-columns{display:none}
 @media(max-width:640px){
  :root[data-theme=dark] .birthday-columns:not(.birthday-mobile-columns){display:none}
  :root[data-theme=dark] .birthday-mobile-columns{display:flex}
- :root[data-theme=dark] .masthead-brand{left:70%;top:57%}
- :root[data-theme=dark] .masthead-brand > .birthday-signature{top:calc(var(--blessing-size)*5.6)}
+ :root[data-theme=dark] .masthead-brand{left:min(74%,calc(100% - var(--blessing-size)*3.825 - clamp(5px,1.3cqw,7px)*2 - 8px));top:57%}
+ :root[data-theme=dark] .masthead-brand > .birthday-signature{left:calc(var(--blessing-size)*.365);top:calc(var(--blessing-size)*6.7)}
 }
