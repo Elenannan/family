@@ -368,3 +368,12 @@ button,input,textarea,select{font-family:var(--font)}
  .art-masthead .theme-toggle{top:12px;right:12px;min-height:40px;padding:3px;gap:2px}
  .art-masthead .theme-option{font-size:12px;padding:6px 9px}
 }
+
+/* Four longer columns are exclusive to the phone night view. */
+.birthday-mobile-columns{display:none}
+@media(max-width:640px){
+ :root[data-theme=dark] .birthday-columns:not(.birthday-mobile-columns){display:none}
+ :root[data-theme=dark] .birthday-mobile-columns{display:flex}
+ :root[data-theme=dark] .masthead-brand{left:66%;top:57%}
+ :root[data-theme=dark] .masthead-brand > .birthday-signature{top:calc(var(--blessing-size)*4.5)}
+}
