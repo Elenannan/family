@@ -350,7 +350,7 @@ button,input,textarea,select{font-family:var(--font)}
  :root:not([data-theme=dark]) .masthead-brand{
   --day-title-size:clamp(21px,5.5cqw,28px);
   left:max(35%,calc(var(--day-title-size)*4.55 + clamp(5px,1.3cqw,7px)*2.5 + 4px));top:43%;bottom:auto;
-  transform:translateX(-50%);transform-origin:center top;
+  transform:translateX(-50%) scale(.92);transform-origin:center top;
  }
  :root:not([data-theme=dark]) .birthday-day-groups{gap:clamp(5px,1.3cqw,7px)}
  :root:not([data-theme=dark]) .birthday-fortune-seal{left:calc(100% + 4px);width:calc(var(--day-title-size)*.7)}
@@ -359,7 +359,7 @@ button,input,textarea,select{font-family:var(--font)}
  :root[data-theme=dark] .masthead-brand{
   --blessing-size:clamp(21px,5.5cqw,28px);
   left:min(66%,calc(100% - var(--blessing-size)*4.45 - clamp(5px,1.3cqw,7px)*2.5 - 6px));top:44%;bottom:auto;
-  transform:translate(-50%,-50%);transform-origin:center center;
+  transform:translate(-50%,-50%) scale(.92);transform-origin:center center;
  }
  :root[data-theme=dark] .birthday-columns{gap:clamp(5px,1.3cqw,7px)}
  :root[data-theme=dark] .birthday-signature{gap:4px}
