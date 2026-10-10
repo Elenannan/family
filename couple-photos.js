@@ -3,12 +3,13 @@
   document.querySelectorAll('.couple-album .photo-flip-button').forEach(button => {
     const front = button.querySelector('.photo-face-front');
     const back = button.querySelector('.photo-face-back');
-    // Browser dimensions account for the image's orientation metadata.
+    // Optimized dimensions already account for orientation. Prefer them to
+    // density-rounded natural dimensions so every srcset keeps the same ratio.
     [[front, '--photo-front-ratio'], [back, '--photo-back-ratio']].forEach(([face, property]) => {
       const img = face.querySelector('img');
       const updateRatio = () => {
-        const width = img.naturalWidth || Number(img.getAttribute('width'));
-        const height = img.naturalHeight || Number(img.getAttribute('height'));
+        const width = Number(img.getAttribute('width')) || img.naturalWidth;
+        const height = Number(img.getAttribute('height')) || img.naturalHeight;
         if (width > 0 && height > 0) button.style.setProperty(property, `${width} / ${height}`);
       };
       img.addEventListener('load', updateRatio);
