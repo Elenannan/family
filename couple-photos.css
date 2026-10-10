@@ -46,3 +46,10 @@
  .couple-album .couple-grid-portrait{margin-top:20px}
  .couple-album .photo-flip-button{width:100%}
 }
+
+/* Phone photos share a width; each visible face keeps its own natural height. */
+@media(max-width:640px){
+ .couple-album .photo-flip-button{aspect-ratio:var(--photo-front-ratio,var(--photo-ratio))}
+ .couple-album .photo-flip-button[aria-pressed="true"]{aspect-ratio:var(--photo-back-ratio,var(--photo-ratio))}
+ .couple-album .photo-face{background:transparent}
+}
