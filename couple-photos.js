@@ -1,5 +1,55 @@
 (() => {
   'use strict';
+  const imageStates = new WeakMap();
+  function watchImage(img) {
+    const state = {
+      src: img.getAttribute('src') || img.dataset.src,
+      srcset: img.getAttribute('srcset') || img.dataset.srcset,
+      retries: 0, failed: false, waiters: []
+    };
+    imageStates.set(img, state);
+    function finish(error) {
+      state.failed = Boolean(error);
+      state.waiters.splice(0).forEach(([resolve, reject]) => error ? reject(error) : resolve());
+    }
+    function retry() {
+      // A missing src on an unopened back is intentional; never load it here.
+      const current = img.currentSrc || img.getAttribute('src');
+      if (!current) return;
+      if (state.retries === 0) {
+        state.retries = 1;
+        const url = new URL(current, document.baseURI);
+        url.searchParams.set('image_retry', '1');
+        img.src = url.href;
+        img.removeAttribute('srcset');
+      } else if (state.retries === 1 && img.dataset.originalSrc) {
+        state.retries = 2;
+        img.src = img.dataset.originalSrc;
+        img.removeAttribute('srcset');
+      } else {
+        finish(new Error('Image could not be loaded'));
+      }
+    }
+    img.addEventListener('load', () => finish());
+    img.addEventListener('error', retry);
+    if (img.getAttribute('src') && img.complete && !img.naturalWidth) retry();
+  }
+  document.querySelectorAll('img[data-original-src]').forEach(watchImage);
+
+  function readyImage(img) {
+    if (img.complete && img.naturalWidth) return Promise.resolve();
+    const state = imageStates.get(img);
+    return new Promise((resolve, reject) => {
+      state.waiters.push([resolve, reject]);
+      if (!img.getAttribute('src') || state.failed) {
+        state.retries = 0;
+        state.failed = false;
+        img.loading = 'eager';
+        if (state.srcset) img.srcset = state.srcset;
+        img.src = state.src;
+      }
+    });
+  }
   document.querySelectorAll('.couple-album .photo-flip-button').forEach(button => {
     const front = button.querySelector('.photo-face-front');
     const back = button.querySelector('.photo-face-back');
@@ -33,19 +83,20 @@
       loading = true;
       button.setAttribute('aria-busy', 'true');
       try {
-        if (!img.getAttribute('src')) {
-          // No back-face request until this photo is explicitly flipped.
-          img.loading = 'eager';
-          img.srcset = img.dataset.srcset;
-          img.src = img.dataset.src;
+        const frontImage = front.querySelector('img');
+        if (!frontImage.complete || !frontImage.naturalWidth) {
+          await readyImage(frontImage);
+          button.removeAttribute('title');
+          showBack(false);
+          return;
         }
-        await img.decode();
+        // load events also work in browsers without HTMLImageElement.decode().
+        // Automatic retries must finish before we reveal the back.
+        await readyImage(img);
         button.removeAttribute('title');
         showBack(true);
       } catch (_) {
         // Keep the front visible and permit another click to retry.
-        img.removeAttribute('srcset');
-        img.removeAttribute('src');
         button.title = '原图暂未加载成功，请再点一次重试';
         button.setAttribute('aria-label', button.dataset.photoName + '：原图暂未加载成功，请再点一次重试');
       } finally {

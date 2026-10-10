@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import re
+import sys
 
 from PIL import Image, ImageOps
 from fontTools import subset
@@ -38,7 +39,7 @@ for m in matches:
 def build(src):
     photo = src.startswith(('二人照片/', '家人合影/'))
     raw = (ROOT / src).read_bytes()
-    key = hashlib.sha256(raw + b'webp-q84-widths640-960-1600-v1').hexdigest()[:16]
+    key = hashlib.sha256(raw + b'jpeg-q82-widths640-960-1600-v1').hexdigest()[:16]
     variants = []
     with Image.open(ROOT / src) as original:
         img = ImageOps.exif_transpose(original)
@@ -46,11 +47,13 @@ def build(src):
         width, height = img.size
         widths = sorted(set(min(width, n) for n in (640, 960, 1600))) if photo else [width]
         for w in widths:
-            target = OUT / f'{key}-{w}.webp'
+            extension = 'png' if img.mode == 'RGBA' else 'jpg'
+            target = OUT / f'{key}-{w}.{extension}'
             if not target.exists():
                 resized = img.resize((w, round(height*w/width)), Image.Resampling.LANCZOS) if w != width else img
                 # Preserve embedded colour profiles; transpose orientation before dropping EXIF.
-                resized.save(target, 'WEBP', quality=84, method=6,
+                resized.save(target, 'PNG' if extension == 'png' else 'JPEG',
+                             quality=82, optimize=True,
                              icc_profile=original.info.get('icc_profile', b''))
             variants.append({'src':str(target.relative_to(ROOT)), 'width':w, 'bytes':target.stat().st_size})
     return src, {'width':width, 'height':height, 'original_bytes':len(raw), 'photo':photo, 'variants':variants}
@@ -78,7 +81,7 @@ def replace(m):
     return '<img ' + ' '.join(f'{k}="{escape(v, quote=True)}"' for k,v in attrs.items()) + '>'
 html = re.sub(r'<img\b[^>]*>', replace, html)
 html = html.replace('baosen.css?v=phone-smaller-105', 'baosen.css?v=optimized-assets-106')
-html = re.sub(r'couple-photos\.js\?v=[^"\s]+', 'couple-photos.js?v=on-demand-6', html)
+html = re.sub(r'couple-photos\.js\?v=[^"\s]+', 'couple-photos.js?v=compatible-images-7', html)
 html = html.replace('couple-photos.css?v=phone-natural-ratio-10', 'couple-photos.css?v=on-demand-11')
 font_link = '<link rel="preload" href="assets/optimized/libian-page.woff2" as="font" type="font/woff2" crossorigin>'
 if font_link not in html: html = html.replace('</title>', '</title>'+font_link, 1)
@@ -88,19 +91,21 @@ css.write_text(css.read_text().replace('assets/libian-sc.woff2', 'assets/optimiz
 
 # Include all page text, accessibility labels and labels set by scripts.
 text = ''.join(p.read_text() for pattern in ('*.html', '*.js') for p in ROOT.glob(pattern))
-options = subset.Options()
-options.flavor = 'woff2'
-options.layout_features = ['*']
-font = TTFont(ROOT / 'assets/libian-sc.woff2')
-original_cmap = font.getBestCmap()
-needed = {ord(c) for c in text} | set(range(32,127))
-subsetter = subset.Subsetter(options=options)
-subsetter.populate(unicodes=needed)
-subsetter.subset(font)
-font.flavor = 'woff2'
 font_path = OUT / 'libian-page.woff2'
-font.save(font_path)
-assert needed.intersection(original_cmap).issubset(TTFont(font_path).getBestCmap())
+# Use only when repairing image delivery without changing page text.
+if '--skip-font' not in sys.argv or not font_path.exists():
+    options = subset.Options()
+    options.flavor = 'woff2'
+    options.layout_features = ['*']
+    font = TTFont(ROOT / 'assets/libian-sc.woff2')
+    original_cmap = font.getBestCmap()
+    needed = {ord(c) for c in text} | set(range(32,127))
+    subsetter = subset.Subsetter(options=options)
+    subsetter.populate(unicodes=needed)
+    subsetter.subset(font)
+    font.flavor = 'woff2'
+    font.save(font_path)
+    assert needed.intersection(original_cmap).issubset(TTFont(font_path).getBestCmap())
 (OUT / 'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 photos = [v for v in manifest.values() if v['photo']]
 print(json.dumps({'photos':len(photos),'original_MB':sum(v['original_bytes'] for v in photos)/1e6,
